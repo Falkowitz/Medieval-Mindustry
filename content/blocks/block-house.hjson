@@ -1,0 +1,19 @@
+type: Wall
+variants: 4
+breakable: false
+destructible: true
+size: 2
+health: 300
+category: effect
+buildVisibility: shown
+rebuildable: true
+unitCapModifier: 2
+solid: true
+buildCostMultiplier: 1.5
+requirements: [
+	item-supplies/250
+] 
+placeSound: block-place
+breakSound: block-destroy
+destroySound: block-destroy
+fogRadius: 5

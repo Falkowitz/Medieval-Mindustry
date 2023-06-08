@@ -1,0 +1,7 @@
+name: Supplies
+hardness: 1
+flammability: 0
+lowPriority: false
+buildable: true
+cost: 1
+color: 90776a
