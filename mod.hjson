@@ -1,0 +1,7 @@
+name: "mm"
+displayName: "Medieval Mindustry"
+description: "Another total conversion PVP mod"
+author: "Fitz"
+minGameVersion: "136"
+version: "0.1"
+hideBrowser: true
