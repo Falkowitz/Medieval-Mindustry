@@ -1,0 +1,12 @@
+type: Wall
+health: 125
+requirements:[
+	item-supplies/25
+]
+category: defense
+fogRadius: 1
+buildVisibility: shown
+buildCostMultiplier: 5
+placeSound: block-place
+breakSound: block-destroy
+destroySound: block-destroy

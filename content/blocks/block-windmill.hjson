@@ -1,0 +1,19 @@
+type: Drill
+tier: 2
+health: 100
+drillTime: 300
+size: 2
+requirements:[
+	item-supplies/50
+]
+fogRadius: 1
+buildVisibility: shown
+buildCostMultiplier: 2
+category: production
+hasItems: true
+consumesPower: false
+hasLiquids: false
+liquidCapacity: 0
+placeSound: block-place
+breakSound: block-destroy
+destroySound: block-destroy

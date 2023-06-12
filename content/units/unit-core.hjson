@@ -13,6 +13,7 @@ accel: 0.5
 engineSize: 0
 targetGround: false
 targetAir: false
+buildBeamOffset: 0
 rotateSpeed: 10
 buildSpeed: 1
 mineSpeed: 5
@@ -22,9 +23,7 @@ targetable: false
 hittable: false
 payloadCapacity: 0
 pickupUnits: false
-vulnerableWithPayloads: true
 outlines: false
-rotateSpeed: 5
 fogRadius: 0
 //immunities: [
 //]

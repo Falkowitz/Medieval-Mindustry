@@ -10,6 +10,7 @@ requirements: [
 category: effect
 fogRadius: 30
 hasItems: true
+customShadow: true
 solid: true
 alwaysUnlocked: true
 buildCostMultiplier: 10
