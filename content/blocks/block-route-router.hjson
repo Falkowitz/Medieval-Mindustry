@@ -1,0 +1,9 @@
+type: Router
+health: 10
+requirements: [
+  item-supplies/5
+]
+category: distribution
+placeSound: block-place
+breakSound: block-destroy
+destroySound: block-destroy

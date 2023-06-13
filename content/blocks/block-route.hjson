@@ -1,0 +1,10 @@
+type: Conveyor
+health: 5
+speed: 0.1
+requirements: [
+  item-supplies/2
+]
+category: distribution
+placeSound: block-place
+breakSound: block-destroy
+destroySound: block-destroy

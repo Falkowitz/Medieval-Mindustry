@@ -1,0 +1,11 @@
+type: Junction
+health: 10
+speed: 0.1
+capacity: 3
+requirements: [
+  item-supplies/10
+]
+category: distribution
+placeSound: block-place
+breakSound: block-destroy
+destroySound: block-destroy
