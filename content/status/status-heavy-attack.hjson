@@ -1,0 +1,5 @@
+healthMultiplier: 0.75
+reloadMultiplier: 0.5
+damageMultiplier: 1.5
+color: b0bac0
+outline: false

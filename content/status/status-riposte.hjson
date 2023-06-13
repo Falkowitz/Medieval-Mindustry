@@ -1,0 +1,6 @@
+reloadMultiplier: 3
+color: e60000
+outline: false
+affinities: [
+	status-stun
+]
