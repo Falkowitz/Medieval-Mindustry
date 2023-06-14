@@ -1,0 +1,10 @@
+type: Floor
+speedMultiplier: 1
+name: Houses
+walkSound: grass
+status: status-housed
+statusDuration: 10
+variants: 5
+hasColor: true
+mapColor: 90776a
+useColor: true

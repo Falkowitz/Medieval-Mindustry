@@ -1,0 +1,9 @@
+type: Floor
+speedMultiplier: 1
+walkSound: mud
+status: status-fielded
+statusDuration: 10
+variants: 4
+hasColor: true
+mapColor: 3e372f
+useColor: true

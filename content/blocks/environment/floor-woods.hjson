@@ -1,0 +1,9 @@
+type: Floor
+speedMultiplier: 1
+walkSound: grass
+status: status-wooded
+statusDuration: 10
+variants: 5
+hasColor: true
+mapColor: 687f64
+useColor: true

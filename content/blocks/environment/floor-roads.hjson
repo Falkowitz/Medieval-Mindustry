@@ -1,0 +1,12 @@
+type: Floor
+speedMultiplier: 1
+walkSound: grass
+status: status-roaded
+statusDuration: 10
+variants: 0
+buildVisibility: shown
+category: distribution
+requirements: [
+	item-supplies/10
+]
+buildCostMultiplier: 20

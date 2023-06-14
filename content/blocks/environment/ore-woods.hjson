@@ -1,0 +1,6 @@
+variants: 5
+type: OreBlock
+itemDrop: item-supplies
+hasColor: true
+mapColor: 85a478
+useColor: true

@@ -1,0 +1,9 @@
+type: Floor
+speedMultiplier: 1
+walkSound: grass
+status: status-mountained
+statusDuration: 10
+variants: 3
+useColor: true
+hasColor: true
+mapColor: b0bac0

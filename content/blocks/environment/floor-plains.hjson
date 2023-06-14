@@ -1,0 +1,8 @@
+type: Floor
+speedMultiplier: 1
+name: Plains
+walkSound: grass
+variants: 11
+hasColor: true
+mapColor: 85a478
+useColor: true

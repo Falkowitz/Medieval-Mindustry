@@ -1,0 +1,7 @@
+name: Food
+hardness: 1
+flammability: 0
+lowPriority: true
+buildable: false
+cost: 1
+color: c5beac

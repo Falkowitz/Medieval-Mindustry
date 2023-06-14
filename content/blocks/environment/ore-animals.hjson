@@ -1,0 +1,6 @@
+variants: 3
+type: OreBlock
+itemDrop: item-food
+hasColor: true
+mapColor: e6e600
+useColor: true
