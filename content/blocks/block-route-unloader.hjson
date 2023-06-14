@@ -1,6 +1,8 @@
 type: Unloader
+hasShadow: false
 health: 10
-speed: 0.1
+speed: 0.05
+buildCostMultiplier: 10
 requirements: [
   item-supplies/10
 ]

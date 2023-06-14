@@ -1,5 +1,7 @@
 type: Router
+hasShadow: false
 health: 10
+buildCostMultiplier: 20
 requirements: [
   item-supplies/5
 ]

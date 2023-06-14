@@ -1,7 +1,9 @@
 type: Junction
+hasShadow: false
 health: 10
-speed: 0.1
-capacity: 3
+speed: 0.05
+buildCostMultiplier: 10
+capacity: 1
 requirements: [
   item-supplies/10
 ]
