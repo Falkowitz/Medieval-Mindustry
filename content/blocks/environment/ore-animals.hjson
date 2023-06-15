@@ -1,4 +1,4 @@
-variants: 3
+variants: 9
 type: OreBlock
 itemDrop: item-food
 hasColor: true
