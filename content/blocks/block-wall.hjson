@@ -1,0 +1,15 @@
+type: Wall
+health: 500
+size: 2
+rotate: true
+quickRotate: true
+requirements:[
+	item-supplies/250
+]
+category: defense
+fogRadius: 1
+buildVisibility: shown
+buildCostMultiplier: 1
+placeSound: block-place
+breakSound: block-destroy
+destroySound: block-destroy
