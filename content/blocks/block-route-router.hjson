@@ -1,9 +1,9 @@
 type: Router
 hasShadow: false
-health: 10
-buildCostMultiplier: 20
+health: 5
+buildCostMultiplier: 10
 requirements: [
-  item-supplies/5
+  item-supplies/3
 ]
 category: distribution
 placeSound: block-place

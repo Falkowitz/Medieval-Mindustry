@@ -10,13 +10,13 @@ reload: 180
 recoil: 0
 maxAmmo: 30
 outlineRadius: 0
-buildCostMultiplier: 2
+buildCostMultiplier: 5.15
 fogRadius: 30
 shake: 0
 ammoUseEffect: none
 targetAir: false
 targetGround: true
-health: 750
+health: 800
 range: 240
 shootSound: none //unit-ranged-shoot
 //drawer: {
@@ -34,7 +34,7 @@ shootSound: none //unit-ranged-shoot
 //		]
 //	}
 	requirements: [
-	item-supplies/500
+	item-supplies/700
 	]
 	shootType: {
 	type: BasicBulletType

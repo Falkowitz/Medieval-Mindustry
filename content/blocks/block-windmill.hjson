@@ -1,14 +1,14 @@
 type: Drill
 tier: 2
-health: 100
+health: 400
 drillTime: 300
 size: 2
 requirements:[
-	item-supplies/50
+	item-supplies/400
 ]
 fogRadius: 1
 buildVisibility: shown
-buildCostMultiplier: 2
+buildCostMultiplier: 6
 category: production
 hasItems: true
 consumesPower: false

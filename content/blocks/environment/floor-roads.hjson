@@ -7,6 +7,6 @@ variants: 0
 buildVisibility: shown
 category: distribution
 requirements: [
-	item-supplies/10
+	item-supplies/100
 ]
-buildCostMultiplier: 20
+buildCostMultiplier: 18

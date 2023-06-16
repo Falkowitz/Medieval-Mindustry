@@ -1,10 +1,10 @@
 type: Conveyor
 hasShadow: false
-health: 5
+health: 1
 speed: 0.05
-buildCostMultiplier: 20
+buildCostMultiplier: 30
 requirements: [
-  item-supplies/2
+  item-supplies/1
 ]
 category: distribution
 placeSound: block-place

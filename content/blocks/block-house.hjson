@@ -9,9 +9,9 @@ buildVisibility: shown
 rebuildable: true
 unitCapModifier: 2
 solid: true
-buildCostMultiplier: 1.5
+buildCostMultiplier: 6
 requirements: [
-	item-supplies/250
+	item-supplies/200
 ] 
 placeSound: block-place
 breakSound: block-destroy

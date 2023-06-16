@@ -2,10 +2,10 @@ type: Junction
 hasShadow: false
 health: 10
 speed: 0.05
-buildCostMultiplier: 10
+buildCostMultiplier: 15
 capacity: 1
 requirements: [
-  item-supplies/10
+  item-supplies/2
 ]
 category: distribution
 placeSound: block-place

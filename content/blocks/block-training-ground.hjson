@@ -1,0 +1,28 @@
+type: UnitFactory
+category: units
+placeSound: block-place
+breakSound: block-destroy
+destroySound: block-destroy
+size: 2
+configurable: true
+buildCostMultiplier: 4.8
+rotate: true
+quickRotate: true
+health: 500
+fogRadius: 3
+hasItems: true
+solid: true
+itemCapacity: 300
+requirements: [
+	item-supplies/500,
+	item-food/250
+]
+//plans: [
+//  {
+//    unit: unit-militia
+//    time: 600
+//    requirements: [
+//		item-supplies/100
+//    ]
+//  }
+//]

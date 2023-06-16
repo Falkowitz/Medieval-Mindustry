@@ -10,3 +10,4 @@ supportsOverlay: true
 hasColor: true
 mapColor: 61a6b4
 useColor: true
+cacheLayer: water
