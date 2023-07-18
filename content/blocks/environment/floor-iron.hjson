@@ -1,0 +1,6 @@
+variants: 3
+type: Floor
+hasColor: true
+mapColor: 989aa4
+useColor: true
+attributes: {ore: 1}

@@ -1,0 +1,6 @@
+variants: 9
+type: Floor
+hasColor: true
+mapColor: e6e600
+useColor: true
+attributes: {food: 1}

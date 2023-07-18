@@ -1,0 +1,24 @@
+type: Drill
+tier: 2
+health: 300
+drillTime: 600
+size: 2
+requirements:[
+	item-supplies/400
+]
+fogRadius: 1
+buildVisibility: shown
+buildCostMultiplier: 6
+category: production
+hasItems: true
+consumesPower: false
+hasLiquids: false
+liquidCapacity: 0
+placeSound: block-place
+breakSound: block-destroy
+destroySound: block-destroy
+//for some reason these don't work for the drill
+loopSound: none
+loopSoundVolume: 0.1
+ambientSound: none
+ambientSoundVolume: 0.1

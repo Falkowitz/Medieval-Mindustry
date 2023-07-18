@@ -3,7 +3,8 @@ speedMultiplier: 1
 walkSound: grass
 status: status-wooded
 statusDuration: 10
-variants: 0
+variants: 5
 hasColor: true
-mapColor: 687f64
+mapColor: 85a478
 useColor: true
+attributes: {wood: 1}

@@ -1,0 +1,13 @@
+type: Conveyor
+hasShadow: false
+health: 1
+speed: 0.05
+buildCostMultiplier: 30
+requirements: [
+  item-supplies/1
+]
+category: distribution
+placeSound: block-place
+breakSound: block-destroy
+destroySound: block-destroy
+squareSprite: false
