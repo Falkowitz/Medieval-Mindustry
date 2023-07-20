@@ -1,7 +1,7 @@
 healthMultiplier: 0.75
 speedMultiplier: 0.75
 reloadMultiplier: 0.75
-damageMultuplier: 0.75
+damageMultiplier: 0.75
 color: e6e600
 outline: false
 applyEffect: 
