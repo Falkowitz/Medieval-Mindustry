@@ -1,0 +1,22 @@
+type: BufferedItemBridge
+hasShadow: true
+health: 5
+buildCostMultiplier: 10
+requirements: [
+  item-wood/3
+]
+category: distribution
+placeSound: block-place
+breakSound: block-destroy
+destroySound: block-destroy
+range: 6
+transportTime: 60
+fadeIn: false
+moveArrows: false
+pulse: false
+bridgeWidth: 8
+speed: 0.05
+arrowPeriod: 0
+arrowTimeScl: 0
+bufferCapacity: 25
+timerAccept: 1

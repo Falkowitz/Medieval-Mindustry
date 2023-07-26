@@ -5,7 +5,7 @@ size: 1
 unitCapModifier: 0
 unitType: unit-core
 requirements: [
-	item-supplies/1500
+	item-wood/1500
 ] 
 category: effect
 fogRadius: 15

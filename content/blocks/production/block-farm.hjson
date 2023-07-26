@@ -15,7 +15,7 @@ hasPower: false
 buildCostMultiplier: 6
 craftTime: 120
 requirements: [
-	item-supplies/200
+	item-wood/200
 ] 
 placeSound: block-place
 breakSound: block-destroy

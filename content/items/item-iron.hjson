@@ -1,0 +1,7 @@
+name: Iron
+hardness: 1
+flammability: 0.5
+lowPriority: false
+buildable: true
+cost: 1
+color: 989aa4

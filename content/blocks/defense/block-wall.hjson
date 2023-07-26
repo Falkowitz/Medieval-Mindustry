@@ -4,7 +4,7 @@ size: 2
 rotate: true
 quickRotate: true
 requirements:[
-	item-supplies/300
+	item-wood/300
 ]
 category: defense
 fogRadius: 1

@@ -14,7 +14,7 @@ hasItems: true
 solid: true
 itemCapacity: 300
 requirements: [
-	item-supplies/500,
+	item-wood/500,
 	item-food/250
 ]
 //plans: [

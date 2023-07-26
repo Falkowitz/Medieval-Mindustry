@@ -34,7 +34,7 @@ shootSound: none //unit-ranged-shoot
 //		]
 //	}
 	requirements: [
-	item-supplies/700
+	item-wood/700
 	]
 	shootType: {
 	type: BasicBulletType

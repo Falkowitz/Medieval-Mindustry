@@ -11,7 +11,7 @@ unitCapModifier: 2
 solid: true
 buildCostMultiplier: 6
 requirements: [
-	item-supplies/200
+	item-wood/200
 ] 
 placeSound: block-place
 breakSound: block-destroy

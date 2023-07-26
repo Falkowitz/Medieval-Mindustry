@@ -1,7 +1,7 @@
-name: Supplies
+name: Wood
 hardness: 1
-flammability: 0
+flammability: 0.5
 lowPriority: false
 buildable: true
 cost: 1
-color: 90776a
+color: 705f5c

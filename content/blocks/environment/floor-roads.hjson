@@ -7,6 +7,6 @@ variants: 0
 buildVisibility: shown
 category: distribution
 requirements: [
-	item-supplies/100
+	item-wood/100
 ]
 buildCostMultiplier: 18

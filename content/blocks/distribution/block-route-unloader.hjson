@@ -4,7 +4,7 @@ health: 10
 speed: 0.05
 buildCostMultiplier: 15
 requirements: [
-  item-supplies/2
+  item-wood/2
 ]
 category: distribution
 placeSound: block-place

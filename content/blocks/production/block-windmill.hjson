@@ -4,7 +4,7 @@ health: 300
 drillTime: 600
 size: 2
 requirements:[
-	item-supplies/400
+	item-wood/400
 ]
 fogRadius: 1
 buildVisibility: shown
