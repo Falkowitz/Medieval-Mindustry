@@ -13,6 +13,7 @@ hasItems: true
 hasLiquids: false
 hasPower: false
 buildCostMultiplier: 6
+squareSprite: false
 craftTime: 180
 requirements: [
 	item-wood/200
@@ -30,6 +31,6 @@ maxBoost: 1
 itemCapacity: 15
 loopSound: none
 loopSoundVolume: 0.01
-hasShadow: false
+customShadow: true
 ambientSound: sound-block-sawmill-ambient
 ambientSoundVolume: 0.05

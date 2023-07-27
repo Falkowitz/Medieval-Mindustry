@@ -5,3 +5,4 @@ author: "Fitz"
 minGameVersion: "136"
 version: "0.1"
 hideBrowser: true
+dependencies: ["multi-crafter"]

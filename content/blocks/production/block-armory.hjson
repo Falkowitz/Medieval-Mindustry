@@ -1,0 +1,66 @@
+type: multicraft.MultiCrafter
+variants: 0
+destructible: true
+rotate: false
+size: 2
+health: 500
+category: crafting
+buildVisibility: shown
+solid: true
+hasItems: true
+hasLiquids: false
+hasPower: false
+buildCostMultiplier: 6
+squareSprite: false
+requirements: [
+	mm-item-wood/200
+	mm-item-iron/50
+] 
+placeSound: block-place
+breakSound: block-destroy
+destroySound: block-destroy
+fogRadius: 5
+itemCapacity: 30
+loopSound: sound-block-armory-ambient
+loopSoundVolume: 0.05
+customShadow: true
+ambientSound: sound-block-armory-ambient
+ambientSoundVolume: 0.05
+recipes: 
+[
+{
+input: {items: [mm-item-wood/3, mm-item-iron/5]}
+output: mm-item-hammer
+craftTime: 600
+},
+{
+input: {items: [mm-item-wood/1, mm-item-iron/3]}
+output: mm-item-sword
+craftTime: 180
+},
+{
+input: {items: [mm-item-wood/3, mm-item-iron/3]}
+output: mm-item-halberd
+craftTime: 300
+},
+{
+input: {items: [mm-item-wood/3, mm-item-iron/1]}
+output: mm-item-spear
+craftTime: 180
+},
+{
+input: {items: [mm-item-wood/3, mm-item-iron/5]}
+output: mm-item-shield
+craftTime: 300
+},
+{
+input: mm-item-wood/5
+output: mm-item-bow
+craftTime: 180
+},
+{
+input: {items: [mm-item-wood/4, mm-item-iron/4]}
+output: mm-item-crossbow
+craftTime: 300
+}
+]

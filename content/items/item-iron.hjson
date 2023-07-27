@@ -1,6 +1,6 @@
 name: Iron
 hardness: 1
-flammability: 0.5
+flammability: 0
 lowPriority: false
 buildable: true
 cost: 1
