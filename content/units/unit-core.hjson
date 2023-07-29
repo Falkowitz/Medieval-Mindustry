@@ -15,8 +15,9 @@ targetGround: false
 targetAir: false
 buildBeamOffset: 0
 rotateSpeed: 10
-buildSpeed: 1
-mineSpeed: 5
+buildSpeed: 0.1
+buildRange: 400000
+mineSpeed: 0
 mineTier: 1
 itemCapacity: 0
 targetable: false

@@ -11,18 +11,19 @@ quickRotate: true
 health: 500
 fogRadius: 3
 hasItems: true
-solid: true
+solid: false
 itemCapacity: 300
 requirements: [
 	item-wood/500,
 	item-food/250
 ]
-//plans: [
-//  {
-//    unit: unit-militia
-//    time: 600
-//    requirements: [
-//		item-supplies/100
-//    ]
-//  }
-//]
+plans: [
+		{
+		unit: unit-special-worker
+		time: 600
+		requirements: [
+			mm-item-food/10
+			mm-item-hammer/1
+			]
+		}
+	]

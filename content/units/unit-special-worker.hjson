@@ -1,0 +1,47 @@
+type: mech
+speed: 0.5
+hitSize: 4
+health: 100
+range: 16
+mineRange: 16
+buildRange: 16
+buildSpeed: 1
+targetAir: false
+createScorch: false
+commands: [move, repair, rebuild, assist]
+defaultCommand: assist
+outlines: false
+mechSideSway: 0.1
+mechFrontSway: 0.25
+buildBeamOffset: 4
+weapons: [
+		{
+		name: unit-special-worker-weapon
+		mirror: false
+		showStatSprite: false
+		top: false
+		reload: 60
+		recoil: 0
+		shootX: 2
+		shootY: 4
+		x: 0
+		y: 0
+		layerOffset: -0.01
+		bullet: {
+			type: BasicBulletType
+			lifetime: 60
+			speed: 1
+			damage: 10
+			recoil: -1
+			instantDisappear: true
+			splashDamage: 10
+			splashDamageRadius: 8
+			collidesTeam: true
+			hittable: false
+			healPercent: 1
+			despawnHit: true
+			width: 0
+			height: 0
+			}
+		}
+	]
