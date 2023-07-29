@@ -22,8 +22,16 @@ plans: [
 		unit: unit-special-worker
 		time: 600
 		requirements: [
-			mm-item-food/10
+			mm-item-food/30
 			mm-item-hammer/1
+			]
+		},
+		{
+		unit: unit-offence-swordsman
+		time: 900
+		requirements: [
+			mm-item-food/50
+			mm-item-sword/1
 			]
 		}
 	]

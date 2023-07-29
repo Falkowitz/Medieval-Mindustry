@@ -1,22 +1,16 @@
 type: mech
 speed: 0.5
 hitSize: 4
-health: 100
+health: 150
 range: 16
 maxRange: 16
-mineRange: 16
-buildRange: 16
-buildSpeed: 1
 targetAir: false
 createScorch: false
-commands: [move, repair, rebuild, assist]
-defaultCommand: assist
+commands: [move]
 outlines: false
 mechSideSway: 0.1
 mechFrontSway: 0.25
-buildBeamOffset: 4
-controller: RepairAI
-deathSound: sound-death1
+deathSound: sound-death2
 deathExplosionEffect: {
 	type: ParticleEffect
 	cone: 1
@@ -41,32 +35,57 @@ deathExplosionEffect: {
 }
 weapons: [
 		{
-		name: unit-special-worker-weapon
+		name: unit-offence-swordsman-weapon
 		mirror: false
 		showStatSprite: false
 		top: false
-		reload: 60
+		reload: 90
 		recoil: 0
-		shootX: 2
+		shootX: 0
 		shootY: 4
 		x: 0
 		y: 0
 		layerOffset: -0.01
-		shootSound: sound-repair
+		shootSound: sound-swish
+		parts: [
+			{
+			suffix: "-lhand"
+			type: RegionPart
+			progress: recoil
+			x: -1.8
+			y: 0
+			moveRot: 60
+			moveY: -1.2
+			moveX: 1.2
+			mirror: false
+			outline: false
+			},
+			{
+			suffix: "-rhand"
+			type: RegionPart
+			progress: recoil
+			x: 1.8
+			y: 0
+			moveRot: 45
+			moveY: 1.2
+			moveX: -1.2
+			mirror: false
+			outline: false
+			}
+			]
 		bullet: {
 			type: BasicBulletType
 			shootEffect: none
 			smokeEffect: none
 			lifetime: 60
 			speed: 1
-			damage: 10
+			damage: 50 
 			recoil: -1
 			instantDisappear: true
-			splashDamage: 10
+			splashDamage: 50
 			splashDamageRadius: 8
 			collidesTeam: true
 			hittable: false
-			healPercent: 1
 			despawnHit: true
 			width: 0
 			height: 0
@@ -78,7 +97,7 @@ weapons: [
 abilities: [
 		{
 		type: SpawnDeathAbility
-		unit: unit-special-worker-corpse
+		unit: unit-offence-swordsman-corpse
 		spread: 4
 		}
 	]
