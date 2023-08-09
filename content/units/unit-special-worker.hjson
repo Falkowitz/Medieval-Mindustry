@@ -2,10 +2,10 @@ type: mech
 speed: 0.5
 hitSize: 4
 health: 100
-range: 16
-maxRange: 16
-mineRange: 16
-buildRange: 16
+range: 32
+maxRange: 32
+mineRange: 32
+buildRange: 32
 buildSpeed: 1
 targetAir: false
 createScorch: false
@@ -48,7 +48,7 @@ weapons: [
 		reload: 60
 		recoil: 0
 		shootX: 2
-		shootY: 4
+		shootY: 8
 		x: 0
 		y: 0
 		layerOffset: -0.01
@@ -70,8 +70,40 @@ weapons: [
 			despawnHit: true
 			width: 0
 			height: 0
-			range: 16
-			maxRange: 16
+			range: 32
+			maxRange: 32
+			hitEffect: {
+				type: ExplosionEffect
+				lifetime: 15
+				smokes: 0
+				sparks: 4
+				waveColor: ffffffff
+				smokeColor: ffffffff
+				sparkColor: ffffffff
+				waveLife: 15
+				waveStroke: 1
+				waveRad: 2
+				waveRadBase: 0
+				sparkStroke: 1
+				sparkRad: 2
+				sparkLen: 2
+				}
+			despawnEffect: {
+				type: ExplosionEffect
+				lifetime: 15
+				smokes: 0
+				sparks: 4
+				waveColor: ffffffff
+				smokeColor: ffffffff
+				sparkColor: ffffffff
+				waveLife: 15
+				waveStroke: 1
+				waveRad: 2
+				waveRadBase: 0
+				sparkStroke: 1
+				sparkRad: 2
+				sparkLen: 2
+				}
 			}
 		}
 	]

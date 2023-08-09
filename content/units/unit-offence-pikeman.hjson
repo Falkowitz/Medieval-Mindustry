@@ -1,16 +1,16 @@
 type: mech
-speed: 0.5
+speed: 0.4
 hitSize: 4
 health: 150
-range: 16
-maxRange: 16
+range: 32
+maxRange: 32
 targetAir: false
 createScorch: false
 commands: [move]
 outlines: false
 mechSideSway: 0.1
 mechFrontSway: 0.25
-deathSound: sound-death2
+deathSound: sound-death3
 deathExplosionEffect: {
 	type: ParticleEffect
 	cone: 1
@@ -35,14 +35,14 @@ deathExplosionEffect: {
 }
 weapons: [
 		{
-		name: unit-offence-swordsman-weapon
+		name: unit-offence-pikeman-weapon
 		mirror: false
 		showStatSprite: false
 		top: false
-		reload: 90
+		reload: 108
 		recoil: 0
 		shootX: 0
-		shootY: 8
+		shootY: 16
 		x: 0
 		y: 0
 		layerOffset: -0.01
@@ -54,7 +54,7 @@ weapons: [
 			progress: recoil
 			x: -1.8
 			y: 0
-			moveRot: 60
+			moveRot: 52.5
 			moveY: -1.2
 			moveX: 1.2
 			mirror: false
@@ -66,7 +66,7 @@ weapons: [
 			progress: recoil
 			x: 1.8
 			y: 0
-			moveRot: 45
+			moveRot: 15
 			moveY: 1.2
 			moveX: -1.2
 			mirror: false
@@ -79,13 +79,19 @@ weapons: [
 			smokeEffect: none
 			lifetime: 60
 			speed: 1
-			damage: 50 
+			damage: 45
 			recoil: -1
 			instantDisappear: true
-			splashDamage: 50
+			splashDamage: 45
 			splashDamageRadius: 8
 			hittable: false
 			despawnHit: true
+			width: 0
+			height: 0
+			range: 32
+			maxRange: 32
+			splashDamagePierce: true
+			pierceArmor: true
 			hitEffect: {
 				type: ExplosionEffect
 				lifetime: 15
@@ -118,17 +124,13 @@ weapons: [
 				sparkRad: 2
 				sparkLen: 2
 				}
-			width: 0
-			height: 0
-			range: 16
-			maxRange: 16
 			}
 		}
 	]
 abilities: [
 		{
 		type: SpawnDeathAbility
-		unit: unit-offence-swordsman-corpse
+		unit: unit-offence-pikeman-corpse
 		spread: 4
 		}
 	]

@@ -1,0 +1,114 @@
+type: mech
+speed: 0.6
+hitSize: 4
+health: 100
+range: 96
+maxRange: 96
+targetAir: false
+createScorch: false
+commands: [move]
+outlines: false
+mechSideSway: 0.1
+mechFrontSway: 0.25
+deathSound: sound-death1
+deathExplosionEffect: {
+	type: ParticleEffect
+	cone: 1
+	region: mm-blood
+	sizeFrom: 1
+	sizeTo: 10
+	lifetime: 3600
+	colorFrom: 800000
+	colorTo: 800000
+	lightOpacity: 0
+	lightScl: 0
+	particles: 1
+	layer: 28
+	randLength: false
+	length: 1
+	baseLength: 1
+	lenFrom: 1
+	lenTo: 1
+	strokeFrom: 0
+	strokeTo: 0
+	cap: false
+}
+weapons: [
+		{
+		name: unit-range-archer-weapon
+		mirror: false
+		showStatSprite: false
+		top: false
+		reload: 60
+		recoil: 0.4
+		shootX: 0
+		shootY: 4
+		x: 0
+		y: 0
+		layerOffset: -0.01
+		shootSound: sound-bow-fire
+		shootStatus: slow
+		shootStatusDuration: 60
+		bullet: {
+			type: ArtilleryBulletType
+			sprite: mm-arrow-front
+			backSprite: mm-arrow-back
+			frontColor: b0bac0
+			backColor: 90776a
+			shootEffect: none
+			smokeEffect: none
+			hitEffect: {
+				type: WaveEffect
+				lifetime: 15
+				followParent: false
+				sizeTo: 2
+				lightScl: 0
+				lightOpacity: 0
+				}
+			despawnEffect: none
+			hitSound: sound-bow-hit
+			despawnSound: sound-bow-hit
+			hitShake: 0
+			despawnShake: 0
+			//lifetime: 33
+			lifetime: 96
+			speed: 1
+			damage: 30 
+			splashDamage: 30
+			splashDamageRadius: 8
+			hittable: false
+			despawnHit: true
+			scaleLife: true
+			trailColor: ffffffff
+			trailLength: 8
+			trailWidth: 0.4
+			trailSize: 0.4
+			trailEffect: none
+			width: 5
+			height: 5
+			lightRadius: 0
+			lightOpacity: 1
+			lightColor: ffffff
+			range: 96
+			maxRange: 96
+			shrinkX: 0
+			shrinkY: 1
+			}
+		}
+	]
+abilities: [
+		{
+		type: StatusFieldAbility
+		effect: mm-status-roll
+		duration: 120
+		reload: 420
+		range: 0
+		applyEffect: none
+		activeEffect: none
+		},
+		{
+		type: SpawnDeathAbility
+		unit: unit-range-archer-corpse
+		spread: 4
+		}
+	]

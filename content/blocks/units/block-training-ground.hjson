@@ -20,7 +20,7 @@ requirements: [
 plans: [
 		{
 		unit: unit-special-worker
-		time: 600
+		time: 1800
 		requirements: [
 			mm-item-food/30
 			mm-item-hammer/1
@@ -28,10 +28,60 @@ plans: [
 		},
 		{
 		unit: unit-offence-swordsman
-		time: 900
+		time: 720
 		requirements: [
 			mm-item-food/50
 			mm-item-sword/1
 			]
+		},
+		{
+		unit: unit-offence-halberdier
+		time: 1080
+		requirements: [
+			mm-item-food/70
+			mm-item-halberd/1
+			]
+		},
+		{
+		unit: unit-offence-pikeman
+		time: 1080
+		requirements: [
+			mm-item-food/70
+			mm-item-spear/1
+			]
+		},
+		{
+		unit: unit-defence-shieldbearer
+		time: 900
+		requirements: [
+			mm-item-food/60
+			mm-item-shield/1
+			]
+		},
+		{
+		unit: unit-defence-legionary
+		time: 1440
+		requirements: [
+			mm-item-food/80
+			mm-item-shield/1
+			mm-item-spear/1
+			]
+		},
+		{
+		unit: unit-range-archer
+		time: 720
+		requirements: [
+			mm-item-food/55
+			mm-item-bow/1
+			]
+		},
+		{
+		unit: unit-range-arbalest
+		time: 1080
+		requirements: [
+			mm-item-food/75
+			mm-item-crossbow/1
+			]
 		}
 	]
+//умножение источника на 3
