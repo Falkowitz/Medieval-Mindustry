@@ -1,0 +1,107 @@
+type: tank
+speed: 0.3
+hitSize: 24
+health: 300
+range: 200
+maxRange: 20
+targetAir: false
+createScorch: false
+commands: [move]
+outlines: false
+deathSound: sound-catapult-death
+deathExplosionEffect: dynamicExplosion
+omniMovement: false
+rotateMoveFirst: true
+rotateSpeed: 1
+treadRects: [
+	{
+		x: 25
+		y: -61
+		width: 8
+		height: 16
+	},
+	{
+		x: 25
+		y: 0
+		width: 8
+		height: 16
+	}
+]
+weapons: [
+		{
+		name: unit-siege-catapult-weapon
+		mirror: false
+		showStatSprite: false
+		top: false
+		reload: 300
+		recoil: 0
+		shootX: 0
+		shootY: 4
+		x: 0
+		y: 0
+		layerOffset: 0.01
+		shootSound: swoosh-deep
+		shootStatus: slow
+		shootStatusDuration: 150
+		shootCone: 5
+		parts: [
+			{
+			suffix: "-arm"
+			type: RegionPart
+			progress: recoil
+			x: 0
+			y: 3.2
+			moveRot: 0
+			moveY: 0
+			moveX: 0
+			growY: -1
+			mirror: false
+			outline: false
+			}
+			]
+		bullet: {
+			type: ArtilleryBulletType
+			sprite: boulder2
+			backSprite: none
+			shootEffect: none
+			smokeEffect: none
+			hitEffect: explosion
+			despawnEffect: explosion
+			hitSound: explosion-small
+			despawnSound: explosion-small
+			hitShake: 0
+			despawnShake: 5
+			//lifetime: 33
+			lifetime: 200
+			speed: 1
+			damage: 75
+			splashDamage: 75
+			splashDamageRadius: 24
+			hittable: false
+			despawnHit: true
+			scaleLife: true
+			trailColor: ffffffff
+			trailLength: 8
+			trailWidth: 1.6
+			trailSize: 1.6
+			trailEffect: none
+			width: 3
+			height: 3
+			lightRadius: 0
+			lightOpacity: 1
+			lightColor: ffffff
+			range: 200
+			maxRange: 200
+			shrinkX: 0
+			shrinkY: 0
+			spin: 1
+			}
+		}
+	]
+abilities: [
+		{
+		type: SpawnDeathAbility
+		unit: unit-siege-catapult-wreck
+		spread: 4
+		}
+	]
