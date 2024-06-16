@@ -1,0 +1,12 @@
+type: Sorter
+hasShadow: false
+health: 5
+buildCostMultiplier: 10
+requirements: [
+  item-wood/3
+]
+category: distribution
+placeSound: digging
+breakSound: block-destroy
+destroySound: block-destroy
+invert: true
