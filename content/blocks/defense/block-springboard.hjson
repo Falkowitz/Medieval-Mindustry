@@ -1,0 +1,54 @@
+type: PowerTurret
+placeSound: block-place
+breakSound: block-destroy
+destroySound: block-destroy
+size: 1
+rotateSpeed: 5
+category: defense
+reload: 600
+recoil: 0
+outlineRadius: 0
+buildCostMultiplier: 3
+fogRadius: 5
+targetAir: false
+targetGround: true
+health: 50
+range: 16
+shootSound: springboard
+shootY: 8
+drawer: {
+	type: DrawTurret
+	parts: 
+		[
+			{
+			suffix: "-trap"
+			type: RegionPart
+			progress: recoil
+			x: 0
+			y: 0
+			growY: -1
+			mirror: false
+			outline: false
+			}
+		]
+	}
+requirements: 
+	[
+	item-wood/25
+	]
+shootType:
+	{
+	type: BasicBulletType
+	damage: 10
+	splashDamage: 10
+	splashDamageRadius: 16
+	knockback: 15
+	speed: 1
+	lifetime: 10
+	despawnHit: true
+	hittable: false
+	hitEffect: none
+	despawnEffect: none
+	shootEffect: shockwave 
+	smokeEffect: none
+	}

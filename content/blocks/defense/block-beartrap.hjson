@@ -16,7 +16,7 @@ requirements:[
 category: defense
 fogRadius: 0
 buildVisibility: shown
-buildCostMultiplier: 3
+buildCostMultiplier: 10
 placeSound: block-place
 breakSound: block-destroy
 destroySound: beartrap-trigger

@@ -16,13 +16,14 @@ requirements:[
 category: defense
 fogRadius: 0
 buildVisibility: shown
-buildCostMultiplier: 3
+buildCostMultiplier: 10
 placeSound: block-place
 breakSound: block-destroy
 destroySound: fireworks-fire
 teamAlpha: 0
 bullet:{
-	shootEffect: sparkExplosion
+	shootEffect: dynamicExplosion
+	hitEffect: dynamicExplosion
 	width: 1
 	height: 1
 	speed: 0
@@ -36,7 +37,6 @@ bullet:{
 	collidesTiles: false
 	absorbable: false
 	hittable: false
-	hitEffect: none
 	status: slow
 	statusDuration: 300
 	}
