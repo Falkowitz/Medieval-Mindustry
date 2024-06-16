@@ -10,8 +10,8 @@ underBullets: true
 length: 0
 shots: 1
 requirements:[
-	item-wood/25
-	item-iron/5
+	item-wood/5
+	item-iron/25
 ]
 category: defense
 fogRadius: 0
@@ -19,17 +19,16 @@ buildVisibility: shown
 buildCostMultiplier: 3
 placeSound: block-place
 breakSound: block-destroy
-destroySound: fireworks-fire
+destroySound: beartrap-trigger
 teamAlpha: 0
 bullet:{
-	shootEffect: sparkExplosion
 	width: 1
 	height: 1
 	speed: 0
 	lifetime: 1
-	damage: 10
-	splashDamage: 10
-	splashDamageRadius: 48
+	damage: 60
+	splashDamage: 60
+	splashDamageRadius: 8
 	splashDamagePierce: true
 	collides: true
 	collidesAir: false
@@ -37,6 +36,6 @@ bullet:{
 	absorbable: false
 	hittable: false
 	hitEffect: none
-	status: slow
-	statusDuration: 300
+	status: unmoving 
+	statusDuration: 600
 	}
