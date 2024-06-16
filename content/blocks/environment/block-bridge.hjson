@@ -1,0 +1,8 @@
+type: Wall
+solid: false
+buildVisibility: editorOnly
+destructible: false
+underBullets: true
+drawTeamOverlay: false
+breakSound: block-destroy
+destroySound: block-destroy

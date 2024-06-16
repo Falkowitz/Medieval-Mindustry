@@ -1,0 +1,17 @@
+type: StorageBlock
+size: 3
+health: 300
+itemCapacity: 300
+drawTeamOverlay: true
+category: distribution
+buildVisibility: shown
+rebuildable: true
+buildCostMultiplier:9
+allowResupply: true
+requirements: [
+item-wood/100
+]
+placeSound: block-place
+breakSound: block-destroy
+destroySound: block-destroy
+customShadow: true

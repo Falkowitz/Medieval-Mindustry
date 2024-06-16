@@ -8,6 +8,6 @@ requirements: [
   item-wood/2
 ]
 category: distribution
-placeSound: block-place
+placeSound: digging
 breakSound: block-destroy
 destroySound: block-destroy
