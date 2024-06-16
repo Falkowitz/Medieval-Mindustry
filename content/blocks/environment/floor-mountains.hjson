@@ -7,3 +7,4 @@ variants: 3
 useColor: true
 hasColor: true
 mapColor: b0bac0
+attributes: {ore: 0.25}

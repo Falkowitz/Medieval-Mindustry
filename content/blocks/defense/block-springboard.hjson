@@ -8,7 +8,7 @@ category: defense
 reload: 600
 recoil: 0
 outlineRadius: 0
-buildCostMultiplier: 3
+buildCostMultiplier: 12
 fogRadius: 5
 targetAir: false
 targetGround: true
@@ -16,6 +16,7 @@ health: 50
 range: 16
 shootSound: springboard
 shootY: 8
+solid: false
 drawer: {
 	type: DrawTurret
 	parts: 

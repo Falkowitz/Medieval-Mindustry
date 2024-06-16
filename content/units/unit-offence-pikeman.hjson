@@ -135,4 +135,13 @@ abilities: [
 		unit: unit-offence-pikeman-corpse
 		spread: 4
 		}
+		{
+		type: StatusFieldAbility
+		effect: mm-status-roll
+		duration: 120
+		reload: 420
+		range: 0
+		applyEffect: none
+		activeEffect: none
+		}
 	]
