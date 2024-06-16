@@ -1,7 +1,7 @@
 type: Wall
 health: 150
 requirements:[
-	item-wood/100
+	item-wood/25
 ]
 category: defense
 fogRadius: 1

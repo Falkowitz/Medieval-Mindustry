@@ -1,7 +1,7 @@
 type: mech
-speed: 0.6
+speed: 0.35
 hitSize: 4
-health: 100
+health: 125
 range: 96
 maxRange: 96
 targetAir: false
@@ -73,8 +73,8 @@ weapons: [
 			//lifetime: 33
 			lifetime: 96
 			speed: 1
-			damage: 30 
-			splashDamage: 30
+			damage: 25
+			splashDamage: 25
 			splashDamageRadius: 8
 			hittable: false
 			despawnHit: true
@@ -93,6 +93,7 @@ weapons: [
 			maxRange: 96
 			shrinkX: 0
 			shrinkY: 1
+			buildingDamageMultiplier: 0.25
 			}
 		}
 	]

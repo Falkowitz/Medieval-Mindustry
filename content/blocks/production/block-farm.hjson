@@ -27,7 +27,7 @@ warmupSpeed: 0.02
 baseEfficiency: 0
 boostScale: 0.25
 maxBoost: 1
-itemCapacity: 15
+itemCapacity: 50
 loopSound: none
 loopSoundVolume: 0.05
 customShadow: true

@@ -1,7 +1,7 @@
 type: mech
-speed: 0.4
+speed: 0.3
 hitSize: 4
-health: 150
+health: 185
 range: 32
 maxRange: 32
 targetAir: false
@@ -75,14 +75,16 @@ weapons: [
 			]
 		bullet: {
 			type: BasicBulletType
+			width: 1
+			height: 1
 			shootEffect: none
 			smokeEffect: none
-			lifetime: 60
+			lifetime: 1
 			speed: 1
-			damage: 45
+			damage: 35
 			recoil: -1
-			instantDisappear: true
-			splashDamage: 45
+			instantDisappear: false
+			splashDamage: 35
 			splashDamageRadius: 8
 			hittable: false
 			despawnHit: true

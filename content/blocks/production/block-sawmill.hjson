@@ -26,9 +26,9 @@ attribute: wood
 outputItem: item-wood/1
 warmupSpeed: 0.02
 baseEfficiency: 0
-boostScale: 0.25
-maxBoost: 1
-itemCapacity: 15
+boostScale: 0.5
+maxBoost: 2
+itemCapacity: 50
 loopSound: none
 loopSoundVolume: 0.01
 customShadow: true

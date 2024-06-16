@@ -1,7 +1,7 @@
 type: mech
-speed: 0.5
+speed: 0.35
 hitSize: 4
-health: 150
+health: 185
 range: 16
 maxRange: 16
 targetAir: false
@@ -79,10 +79,10 @@ weapons: [
 			smokeEffect: none
 			lifetime: 60
 			speed: 1
-			damage: 50 
+			damage: 40
 			recoil: -1
 			instantDisappear: true
-			splashDamage: 50
+			splashDamage: 40
 			splashDamageRadius: 8
 			hittable: false
 			despawnHit: true

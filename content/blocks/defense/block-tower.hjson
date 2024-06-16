@@ -42,10 +42,10 @@ shootY: 4
 			despawnSound: sound-bow-hit
 			hitShake: 0
 			despawnShake: 0
-			lifetime: 240
-			speed: 1
-			damage: 30 
-			splashDamage: 30
+			lifetime: 80
+			speed: 3
+			damage: 40 
+			splashDamage: 40
 			splashDamageRadius: 8
 			hittable: false
 			despawnHit: true
