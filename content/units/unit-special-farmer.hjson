@@ -1,0 +1,57 @@
+type: mech
+speed: 0.5
+hitSize: 4
+health: 100
+range: 16
+maxRange: 16
+mineRange: 16
+mineTier: 3
+mineSpeed: 1
+targetAir: false
+createScorch: false
+commands: [move, mine]
+defaultCommand: mine
+outlines: false
+itemCapacity: 5
+mechSideSway: 0.1
+mechFrontSway: 0.25
+controller: MinerAI
+deathSound: sound-death1
+canAttack: false
+buildBeamOffset: 4
+mineSound: none
+drawBuildBeam: false
+itemOffsetY: 4
+mineItems:
+[
+item-food
+]
+deathExplosionEffect: {
+	type: ParticleEffect
+	cone: 1
+	region: mm-blood
+	sizeFrom: 1
+	sizeTo: 10
+	lifetime: 3600
+	colorFrom: 800000
+	colorTo: 800000
+	lightOpacity: 0
+	lightScl: 0
+	particles: 1
+	layer: 28
+	randLength: false
+	length: 1
+	baseLength: 1
+	lenFrom: 1
+	lenTo: 1
+	strokeFrom: 0
+	strokeTo: 0
+	cap: false
+}
+abilities: [
+		{
+		type: SpawnDeathAbility
+		unit: unit-special-farmer-corpse
+		spread: 4
+		}
+	]

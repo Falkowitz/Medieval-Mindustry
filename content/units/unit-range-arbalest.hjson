@@ -4,7 +4,7 @@ hitSize: 4
 health: 125
 range: 80
 maxRange: 80
-targetAir: false
+targetAir: true
 createScorch: false
 commands: [move]
 outlines: false

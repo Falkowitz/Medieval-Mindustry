@@ -1,0 +1,28 @@
+flying: true
+speed: 0.3
+acceleration: 0.001
+hitSize: 4
+health: 100
+range: 120
+maxRange: 120
+mineRange: 120
+buildRange: 120
+buildSpeed: 1
+targetAir: false
+createScorch: false
+commands: [move, repair, rebuild, assist]
+defaultCommand: assist
+outlines: false
+buildBeamOffset: 0
+controller: RepairAI
+deathSound: balloon-pop
+canAttack: false
+engineSize: 0
+shadowElevation: 10
+abilities: [
+		{
+		type: SpawnDeathAbility
+		unit: unit-special-hot-balloon-dead
+		spread: 4
+		}
+	]

@@ -12,7 +12,7 @@ buildCostMultiplier: 4
 fogRadius: 35
 shake: 0
 ammoUseEffect: none
-targetAir: false
+targetAir: true
 targetGround: true
 health: 400
 range: 280

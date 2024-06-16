@@ -33,7 +33,7 @@ bullet:{
 	splashDamageRadius: 48
 	splashDamagePierce: true
 	collides: true
-	collidesAir: false
+	collidesAir: true
 	collidesTiles: false
 	absorbable: false
 	hittable: false
