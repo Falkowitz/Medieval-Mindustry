@@ -7,7 +7,7 @@ requirements: [
   item-wood/1
 ]
 category: distribution
-placeSound: block-place
+placeSound: digging
 breakSound: block-destroy
 destroySound: block-destroy
 squareSprite: false

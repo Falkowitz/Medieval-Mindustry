@@ -1,0 +1,42 @@
+type: ShockMine
+size: 1
+tendrils: 0
+damage: 50
+tileDamage: 50
+health: 50
+customShadow: true
+cooldown: 60
+underBullets: true
+length: 0
+shots: 1
+requirements:[
+	item-wood/25
+	item-iron/25
+]
+category: defense
+fogRadius: 0
+buildVisibility: shown
+buildCostMultiplier: 3
+placeSound: block-place
+breakSound: block-destroy
+destroySound: fireworks-fire
+teamAlpha: 0
+bullet:{
+	shootEffect: sparkExplosion
+	width: 1
+	height: 1
+	speed: 0
+	lifetime: 1
+	damage: 10
+	splashDamage: 10
+	splashDamageRadius: 48
+	splashDamagePierce: true
+	collides: true
+	collidesAir: false
+	collidesTiles: false
+	absorbable: false
+	hittable: false
+	hitEffect: none
+	status: slow
+	statusDuration: 300
+	}
