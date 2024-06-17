@@ -29,11 +29,6 @@ ambientSoundVolume: 0.05
 recipes: 
 [
 {
-input: {items: [mm-item-wood/3, mm-item-iron/5]}
-output: mm-item-hammer
-craftTime: 600
-},
-{
 input: {items: [mm-item-wood/3, mm-item-iron/3]}
 output: mm-item-hoe
 craftTime: 600
@@ -49,6 +44,11 @@ output: mm-item-halberd
 craftTime: 300
 },
 {
+input: {items: [mm-item-wood/3, mm-item-iron/5]}
+output: mm-item-hammer
+craftTime: 600
+},
+{
 input: {items: [mm-item-wood/3, mm-item-iron/1]}
 output: mm-item-spear
 craftTime: 180
@@ -56,6 +56,11 @@ craftTime: 180
 {
 input: {items: [mm-item-wood/3, mm-item-iron/5]}
 output: mm-item-shield
+craftTime: 300
+},
+{
+input: {items: [mm-item-wood/1, mm-item-iron/4]}
+output: mm-item-mace
 craftTime: 300
 },
 {

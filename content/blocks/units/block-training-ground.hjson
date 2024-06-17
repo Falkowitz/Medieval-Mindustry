@@ -75,6 +75,14 @@ plans: [
 			]
 		},
 		{
+		unit: unit-defence-macebearer
+		time: 1350
+		requirements: [
+			mm-item-food/70
+			mm-item-mace/1
+			]
+		},
+		{
 		unit: unit-defence-legionary
 		time: 1800
 		requirements: [

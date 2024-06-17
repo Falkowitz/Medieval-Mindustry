@@ -1,7 +1,7 @@
 type: mech
-speed: 0.25
+speed: 0.35
 hitSize: 4
-health: 190
+health: 175
 range: 24
 maxRange: 24
 targetAir: false
@@ -10,7 +10,7 @@ commands: [move]
 outlines: false
 mechSideSway: 0.1
 mechFrontSway: 0.25
-deathSound: sound-death1
+deathSound: sound-death2
 deathExplosionEffect: {
 	type: ParticleEffect
 	cone: 1
@@ -35,14 +35,14 @@ deathExplosionEffect: {
 }
 weapons: [
 		{
-		name: unit-offence-hammerbearer-weapon
+		name: unit-defence-macebearer-weapon
 		mirror: false
 		showStatSprite: false
 		top: false
-		reload: 150
+		reload: 108
 		recoil: 0
 		shootX: 0
-		shootY: 16
+		shootY: 4
 		x: 0
 		y: 0
 		layerOffset: -0.01
@@ -77,21 +77,21 @@ weapons: [
 			type: BasicBulletType
 			shootEffect: none
 			smokeEffect: none
-			lifetime: 60
+			lifetime: 10
 			speed: 1
-			damage: 40
+			damage: 30
 			recoil: -1
-			instantDisappear: true
-			splashDamage: 40
+			instantDisappear: false
+			splashDamage: 30
 			splashDamageRadius: 16
 			hittable: false
 			despawnHit: true
-			width: 0
-			height: 0
+			width: 1
+			height: 1
 			range: 24
 			maxRange: 24
-			status: mm-status-stun
-			statusDuration: 90
+			knockback: 5
+			impact: true
 			buildingDamageMultiplier: 3
 			hitEffect: {
 				type: ExplosionEffect
@@ -131,7 +131,7 @@ weapons: [
 abilities: [
 		{
 		type: SpawnDeathAbility
-		unit: unit-offence-hammerbearer-corpse
+		unit: unit-defence-macebearer-corpse
 		spread: 4
 		}
 	]
