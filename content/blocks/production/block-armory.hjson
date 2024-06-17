@@ -61,7 +61,7 @@ craftTime: 300
 {
 input: {items: [mm-item-wood/1, mm-item-iron/4]}
 output: mm-item-mace
-craftTime: 300
+craftTime: 180
 },
 {
 input: mm-item-wood/5
@@ -72,5 +72,10 @@ craftTime: 180
 input: {items: [mm-item-wood/4, mm-item-iron/4]}
 output: mm-item-crossbow
 craftTime: 300
+},
+{
+input: mm-item-wood/7
+output: mm-item-book
+craftTime: 600
 }
 ]

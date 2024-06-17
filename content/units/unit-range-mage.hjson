@@ -1,0 +1,121 @@
+type: mech
+speed: 0.25
+hitSize: 4
+health: 90
+range: 88
+maxRange: 88
+targetAir: true
+createScorch: false
+commands: [move]
+outlines: false
+mechSideSway: 0.1
+mechFrontSway: 0.25
+deathSound: sound-death3
+deathExplosionEffect: {
+	type: ParticleEffect
+	cone: 1
+	region: mm-blood
+	sizeFrom: 1
+	sizeTo: 10
+	lifetime: 3600
+	colorFrom: 800000
+	colorTo: 800000
+	lightOpacity: 0
+	lightScl: 0
+	particles: 1
+	layer: 28
+	randLength: false
+	length: 1
+	baseLength: 1
+	lenFrom: 1
+	lenTo: 1
+	strokeFrom: 0
+	strokeTo: 0
+	cap: false
+}
+weapons: [
+		{
+		name: unit-range-mage-weapon
+		mirror: false
+		showStatSprite: false
+		top: false
+		reload: 300
+		recoil: 0
+		shootX: 2
+		shootY: 4
+		x: 0
+		y: 0
+		layerOffset: -0.0001
+		shootSound: fireball-cast
+		shootStatus: slow
+		shootStatusDuration: 180
+		parts: [
+			{
+			suffix: "-rhand"
+			type: RegionPart
+			progress: warmup
+			x: 1.8
+			y: 0
+			moveRot: 15
+			moveX: -0.8
+			moveY: 0.8
+			mirror: false
+			outline: false
+			}
+		]
+		bullet: {
+			type: BasicBulletType
+			/*sprite: mm-arrow-front
+			backSprite: mm-arrow-back
+			frontColor: b0bac0
+			backColor: 90776a*/
+			shootEffect: none
+			smokeEffect: none
+			recoil: 1
+			hitEffect: explosion 
+			despawnEffect: none
+			hitSound: explosion-small
+			despawnSound: none
+			hitShake: 3
+			despawnShake: 3
+			lifetime: 88
+			speed: 1
+			damage: 20
+			splashDamage: 20
+			splashDamageRadius: 24
+			hittable: false
+			despawnHit: true
+			trailColor: ffa665
+			trailLength: 8
+			trailWidth: 0.4
+			trailSize: 0.4
+			trailEffect: none
+			width: 5
+			height: 5
+			lightRadius: 0
+			lightOpacity: 1
+			lightColor: ffa665
+			range: 88
+			maxRange: 88
+			shrinkX: 0
+			shrinkY: 0
+			buildingDamageMultiplier: 0.25
+			spin: 5
+			makeFire: true
+			incendChance: 1
+			incendSpread: 8
+			incendAmount: 3
+			}
+		shoot: {
+			shots: 1
+			firstShotDelay: 60
+			}
+		}
+	]
+abilities: [
+		{
+		type: SpawnDeathAbility
+		unit: unit-range-mage-corpse
+		spread: 4
+		}
+	]

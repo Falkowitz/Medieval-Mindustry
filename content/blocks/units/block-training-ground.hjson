@@ -106,6 +106,14 @@ plans: [
 			mm-item-food/75
 			mm-item-crossbow/1
 			]
+		},
+		{
+		unit: unit-range-mage
+		time: 1800
+		requirements: [
+			mm-item-food/80
+			mm-item-book/1
+			]
 		}
 	]
 //умножение источника на 3
