@@ -19,19 +19,19 @@ requirements: [
 ]
 plans: [
 		{
-		unit: unit-special-farmer
-		time: 1800
-		requirements: [
-			mm-item-food/30
-			mm-item-hoe/1
-			]
-		},
-		{
 		unit: unit-special-hot-balloon
 		time: 2700
 		requirements: [
 			mm-item-food/100
 			mm-item-wood/300
+			]
+		},
+		{
+		unit: unit-special-farmer
+		time: 1800
+		requirements: [
+			mm-item-food/30
+			mm-item-hoe/1
 			]
 		},
 		{
@@ -48,6 +48,14 @@ plans: [
 		requirements: [
 			mm-item-food/70
 			mm-item-halberd/1
+			]
+		},
+		{
+		unit: unit-offence-hammerbearer
+		time: 1800
+		requirements: [
+			mm-item-food/80
+			mm-item-hammer/1
 			]
 		},
 		{

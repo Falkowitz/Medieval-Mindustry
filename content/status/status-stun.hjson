@@ -1,22 +1,20 @@
 healthMultiplier: 0.75
-speedMultiplier: 0.75
-reloadMultiplier: 0.75
-damageMultiplier: 0.75
+speedMultiplier: 0.25
 color: e6e600
 outline: false
 applyEffect: 
 	{
 	type: ParticleEffect
 	particles: 5
-	sizeFrom: 5
+	sizeFrom: 2
 	sizeTo: 0
 	colorFrom: e6e600
 	colorTo: ffffff
 	lenFrom: 5
 	lenTo: 1
 	baseLength: 1
-	lifetime: 15
-	lightOpacity: 0
+	lifetime: 5
+	lightOpacity: 1
 	lightScl: 0
 	}
 opposites: [

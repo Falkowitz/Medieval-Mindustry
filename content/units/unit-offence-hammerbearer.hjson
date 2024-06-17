@@ -1,0 +1,137 @@
+type: mech
+speed: 0.25
+hitSize: 4
+health: 190
+range: 24
+maxRange: 24
+targetAir: false
+createScorch: false
+commands: [move]
+outlines: false
+mechSideSway: 0.1
+mechFrontSway: 0.25
+deathSound: sound-death1
+deathExplosionEffect: {
+	type: ParticleEffect
+	cone: 1
+	region: mm-blood
+	sizeFrom: 1
+	sizeTo: 10
+	lifetime: 3600
+	colorFrom: 800000
+	colorTo: 800000
+	lightOpacity: 0
+	lightScl: 0
+	particles: 1
+	layer: 28
+	randLength: false
+	length: 1
+	baseLength: 1
+	lenFrom: 1
+	lenTo: 1
+	strokeFrom: 0
+	strokeTo: 0
+	cap: false
+}
+weapons: [
+		{
+		name: unit-offence-hammerbearer-weapon
+		mirror: false
+		showStatSprite: false
+		top: false
+		reload: 120
+		recoil: 0
+		shootX: 0
+		shootY: 16
+		x: 0
+		y: 0
+		layerOffset: -0.01
+		shootSound: sound-swish
+		parts: [
+			{
+			suffix: "-lhand"
+			type: RegionPart
+			progress: recoil
+			x: -1.8
+			y: 0
+			moveRot: -30
+			moveY: 0.4
+			moveX: 0.4
+			mirror: false
+			outline: false
+			},
+			{
+			suffix: "-rhand"
+			type: RegionPart
+			progress: recoil
+			x: 1.8
+			y: 0
+			moveRot: -45
+			moveY: -1.2
+			moveX: -1.2
+			mirror: false
+			outline: false
+			}
+			]
+		bullet: {
+			type: BasicBulletType
+			shootEffect: none
+			smokeEffect: none
+			lifetime: 60
+			speed: 1
+			damage: 30
+			recoil: -1
+			instantDisappear: true
+			splashDamage: 30
+			splashDamageRadius: 16
+			hittable: false
+			despawnHit: true
+			width: 0
+			height: 0
+			range: 24
+			maxRange: 24
+			status: mm-status-stun
+			statusDuration: 90
+			buildingDamageMultiplier: 3
+			hitEffect: {
+				type: ExplosionEffect
+				lifetime: 15
+				smokes: 0
+				sparks: 4
+				waveColor: ffffffff
+				smokeColor: ffffffff
+				sparkColor: ffffffff
+				waveLife: 15
+				waveStroke: 1
+				waveRad: 2
+				waveRadBase: 0
+				sparkStroke: 1
+				sparkRad: 2
+				sparkLen: 2
+				}
+			despawnEffect: {
+				type: ExplosionEffect
+				lifetime: 15
+				smokes: 0
+				sparks: 4
+				waveColor: ffffffff
+				smokeColor: ffffffff
+				sparkColor: ffffffff
+				waveLife: 15
+				waveStroke: 1
+				waveRad: 2
+				waveRadBase: 0
+				sparkStroke: 1
+				sparkRad: 2
+				sparkLen: 2
+				}
+			}
+		}
+	]
+abilities: [
+		{
+		type: SpawnDeathAbility
+		unit: unit-offence-hammerbearer-corpse
+		spread: 4
+		}
+	]

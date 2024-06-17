@@ -1,6 +1,7 @@
 flying: true
 speed: 0.3
 acceleration: 0.001
+drag: 0.001
 hitSize: 4
 health: 100
 range: 120
