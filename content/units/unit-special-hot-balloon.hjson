@@ -10,7 +10,7 @@ buildRange: 120
 buildSpeed: 1
 targetAir: false
 createScorch: false
-commands: [move, repair, rebuild, assist]
+commands: [move, rebuild, assist]
 defaultCommand: assist
 outlines: false
 buildBeamOffset: 0
@@ -18,7 +18,7 @@ controller: RepairAI
 deathSound: balloon-pop
 canAttack: false
 engineSize: 0
-shadowElevation: 10
+shadowElevation: -100
 abilities: [
 		{
 		type: SpawnDeathAbility

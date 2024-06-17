@@ -6,3 +6,4 @@ variants: 11
 hasColor: true
 mapColor: 85a478
 useColor: true
+allowCorePlacement: true

@@ -5,7 +5,9 @@ size: 9
 unitCapModifier: 8
 unitType: unit-core
 requirements: [
-	item-wood/5000
+	item-wood/2500
+	item-iron/5000
+	item-food/1000
 ] 
 category: effect
 fogRadius: 30
@@ -13,7 +15,7 @@ hasItems: true
 customShadow: true
 solid: true
 alwaysUnlocked: true
-buildCostMultiplier: 10
+buildCostMultiplier: 1.2705
 allowResupply: true
 placeSound: block-place
 breakSound: block-destroy

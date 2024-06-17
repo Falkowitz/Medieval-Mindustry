@@ -1,13 +1,13 @@
-type: Junction
+type: Unloader
 hasShadow: false
 health: 10
-speed: 0.05
-buildCostMultiplier: 30
-capacity: 1
+speed: 0.1
+buildCostMultiplier: 15
 requirements: [
-  item-wood/2
+  item-wood/3
+  item-iron/3
 ]
 category: distribution
-placeSound: digging
+placeSound: block-place
 breakSound: block-destroy
 destroySound: block-destroy

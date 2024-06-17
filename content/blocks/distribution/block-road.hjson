@@ -1,0 +1,19 @@
+type: StackConveyor
+hasShadow: false
+health: 5
+speed: 0.1
+buildCostMultiplier: 30
+requirements: [
+  item-wood/1
+  item-iron/1
+]
+category: distribution
+placeSound: block-place
+breakSound: block-destroy
+destroySound: block-destroy
+squareSprite: false
+itemCapacity: 5
+loadEffect: none
+unloadEffect: none
+recharge: 1
+outputRouter: false

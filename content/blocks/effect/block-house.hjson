@@ -12,6 +12,7 @@ solid: true
 buildCostMultiplier: 6
 requirements: [
 	item-wood/200
+	item-food/50
 ] 
 placeSound: block-place
 breakSound: block-destroy

@@ -1,11 +1,12 @@
 type: Router
 hasShadow: false
 health: 5
-buildCostMultiplier: 30
+buildCostMultiplier: 22.5
 requirements: [
   item-wood/2
+  item-iron/2
 ]
 category: distribution
-placeSound: digging
+placeSound: block-place
 breakSound: block-destroy
 destroySound: block-destroy

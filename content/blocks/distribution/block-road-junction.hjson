@@ -1,11 +1,14 @@
-type: Router
+type: Junction
 hasShadow: false
-health: 5
-buildCostMultiplier: 30
+health: 10
+speed: 0.1
+buildCostMultiplier: 22.5
+capacity: 1
 requirements: [
   item-wood/2
+  item-iron/2
 ]
 category: distribution
-placeSound: digging
+placeSound: block-place
 breakSound: block-destroy
 destroySound: block-destroy

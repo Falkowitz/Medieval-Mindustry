@@ -2,9 +2,9 @@ type: Unloader
 hasShadow: false
 health: 10
 speed: 0.05
-buildCostMultiplier: 15
+buildCostMultiplier: 20
 requirements: [
-  item-wood/2
+  item-wood/3
 ]
 category: distribution
 placeSound: digging

@@ -4,3 +4,4 @@ hasColor: true
 mapColor: 989aa4
 useColor: true
 attributes: {ore: 1}
+allowCorePlacement: true

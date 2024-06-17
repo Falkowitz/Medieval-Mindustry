@@ -8,3 +8,4 @@ hasColor: true
 mapColor: 3e372f
 useColor: true
 cacheLayer: mud
+allowCorePlacement: true

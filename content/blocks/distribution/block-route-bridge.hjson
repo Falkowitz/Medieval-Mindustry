@@ -1,7 +1,7 @@
 type: BufferedItemBridge
 hasShadow: true
 health: 5
-buildCostMultiplier: 10
+buildCostMultiplier: 60
 requirements: [
   item-wood/3
 ]

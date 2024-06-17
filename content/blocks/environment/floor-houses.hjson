@@ -8,3 +8,4 @@ variants: 5
 hasColor: true
 mapColor: 90776a
 useColor: true
+allowCorePlacement: true

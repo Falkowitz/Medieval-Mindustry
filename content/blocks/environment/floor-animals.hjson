@@ -4,3 +4,4 @@ hasColor: true
 mapColor: e6e600
 useColor: true
 attributes: {food: 1}
+allowCorePlacement: true

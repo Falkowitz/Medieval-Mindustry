@@ -10,3 +10,4 @@ requirements: [
 	item-wood/100
 ]
 buildCostMultiplier: 18
+allowCorePlacement: true

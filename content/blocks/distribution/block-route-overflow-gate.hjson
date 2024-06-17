@@ -1,9 +1,9 @@
 type: OverflowGate
 hasShadow: false
 health: 5
-buildCostMultiplier: 10
+buildCostMultiplier: 30
 requirements: [
-  item-wood/3
+  item-wood/2
 ]
 category: distribution
 placeSound: digging
