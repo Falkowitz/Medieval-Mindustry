@@ -86,12 +86,12 @@ weapons: [
 			splashDamageRadius: 16
 			hittable: false
 			despawnHit: true
-			width: 1
-			height: 1
+			width: 0
+			height: 0
 			range: 24
 			maxRange: 24
 			knockback: 5
-			impact: true
+			impact: false
 			buildingDamageMultiplier: 3
 			hitEffect: {
 				type: ExplosionEffect

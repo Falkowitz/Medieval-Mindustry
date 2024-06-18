@@ -40,6 +40,8 @@ requirements:
 shootType:
 	{
 	type: BasicBulletType
+	width: 0
+	height: 0
 	damage: 10
 	splashDamage: 10
 	splashDamageRadius: 16
