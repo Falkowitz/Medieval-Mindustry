@@ -19,6 +19,7 @@ extinguish: true
 hasLiquids: true
 liquidCapacity: 30
 inaccuracy: 5
+squareSprite: false
 //consumes: 
 
 requirements: [
