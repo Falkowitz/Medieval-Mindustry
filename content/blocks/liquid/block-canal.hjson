@@ -1,0 +1,17 @@
+type: Conduit
+hasShadow: false
+health: 1
+speed: 0.05
+buildCostMultiplier: 30
+requirements: [
+  item-wood/1
+]
+category: liquid
+placeSound: digging
+breakSound: block-destroy
+destroySound: block-destroy
+squareSprite: false
+leaks: false
+liquidCapacity: 1
+junctionReplacement: mm-block-canal-junction
+bridgeReplacement: mm-block-aqueduct

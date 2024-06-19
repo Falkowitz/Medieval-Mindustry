@@ -13,3 +13,4 @@ mapColor: 538e9a
 useColor: true
 cacheLayer: water
 liquidDrop: water
+attributes: {water: 1}

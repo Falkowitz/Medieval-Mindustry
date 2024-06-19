@@ -9,3 +9,4 @@ mapColor: 85a478
 useColor: true
 attributes: {wood: 1}
 allowCorePlacement: true
+attributes: {water: 0.15}

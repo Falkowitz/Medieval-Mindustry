@@ -1,0 +1,13 @@
+type: LiquidRouter
+size: 2
+solid: true
+buildCostMultiplier: 7.2
+requirements: [
+  item-wood/125
+]
+category: liquid
+placeSound: block-place
+breakSound: block-destroy
+destroySound: block-destroy
+squareSprite: false
+liquidCapacity: 300

@@ -7,3 +7,4 @@ hasColor: true
 mapColor: 85a478
 useColor: true
 allowCorePlacement: true
+attributes: {water: 0.1}

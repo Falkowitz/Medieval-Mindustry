@@ -9,3 +9,4 @@ mapColor: 3e372f
 useColor: true
 cacheLayer: mud
 allowCorePlacement: true
+attributes: {water: 0.2}

@@ -1,0 +1,40 @@
+type: Pump
+health: 150
+size: 1
+category: liquid
+placeSound: block-place
+destroySound: block-destroy
+breakSound: block-destroy
+liquidCapacity: 75
+buildCostMultiplier: 9
+hasPower: false
+pumpAmount: 0.083
+
+requirements:
+[
+	item-wood/175
+	item-iron/25
+]
+
+drawer:
+{
+	type: DrawMulti
+	drawers:
+	[
+		{
+		type: DrawLiquidRegion
+		drawLiquid: water
+		}
+
+		{
+		type: DrawDefault
+		}
+
+		{
+		type: DrawRegion
+		suffix: -wheel
+		spinSpire: true
+		rotateSpeed: 0.5
+		}
+	]
+}

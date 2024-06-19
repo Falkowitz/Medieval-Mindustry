@@ -1,31 +1,121 @@
-type: LiquidTurret
+type: AttributeCrafter
 placeSound: block-place
 breakSound: block-destroy
 destroySound: block-destroy
 size: 1
-category: defense
-reload: 3
-recoil: 0
-attacks: false
-outlineRadius: 0
+category: liquid
 buildCostMultiplier: 6
-fogRadius: 15
+fogRadius: 5
 ammoUseEffect: none
 health: 200
-range: 120
-shootSound: shootLiquid
-shootY: 4
-extinguish: true
+hasItems: false
 hasLiquids: true
+hasPower: false
 liquidCapacity: 30
-inaccuracy: 5
 squareSprite: false
-//consumes: 
+attribute: water
+outputsLiquid: true
+outputLiquid: water/0.05
+warmupSpeed: 0.02
+baseEfficiency: 0
+boostScale: 0.25
+maxBoost: 1
 
 requirements: [
 item-wood/150
 ]
 
+loopSound: none
+loopSoundVolume: 0.01
+ambientSound: none
+ambientSoundVolume: 0.05
+
+drawer:
+{
+	type: DrawMulti
+	drawers:
+	[
+		{
+		type: DrawRegion
+		suffix: -bottom
+		}
+
+		{
+		type: DrawLiquidRegion
+		drawLiquid: water
+		}
+
+		{
+		type: DrawDefault
+		}
+	]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 ammoTypes:
 {
 	water:
@@ -52,6 +142,7 @@ ammoTypes:
 	lightRadius: 0
 	}
 }
+*/
 
 
 

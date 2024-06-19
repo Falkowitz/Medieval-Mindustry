@@ -1,0 +1,15 @@
+type: LiquidRouter
+hasShadow: false
+health: 10
+speed: 0.05
+buildCostMultiplier: 20
+requirements: [
+  item-wood/3
+]
+category: liquid
+placeSound: digging
+breakSound: block-destroy
+destroySound: block-destroy
+squareSprite: false
+leaks: false
+liquidCapacity: 1

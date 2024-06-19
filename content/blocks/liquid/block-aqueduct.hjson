@@ -1,0 +1,24 @@
+type: LiquidBridge
+hasShadow: true
+health: 5
+speed: 0.05
+buildCostMultiplier: 15
+requirements: [
+  item-wood/1
+  item-iron/5
+]
+category: liquid
+placeSound: block-place
+breakSound: block-destroy
+destroySound: block-destroy
+squareSprite: false
+liquidCapacity: 1
+hasPower: false
+fadeIn: false
+moveArrows: false
+bridgeWidth: 8
+arrowPeriod: 0
+arrowTimeScl: 0
+range: 6
+pulse: false
+transportTime: 60
