@@ -9,6 +9,10 @@ liquidCapacity: 75
 buildCostMultiplier: 9
 hasPower: false
 pumpAmount: 0.083
+loopSound: none
+loopSoundVolume: 0.05
+ambientSound: woodenTechAmbient
+ambientSoundVolume: 0.01
 
 requirements:
 [

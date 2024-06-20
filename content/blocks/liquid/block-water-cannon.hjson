@@ -1,0 +1,58 @@
+type: LiquidTurret
+placeSound: block-place
+breakSound: block-destroy
+destroySound: block-destroy
+size: 2
+category: liquid
+reload: 15
+recoil: 1
+outlineRadius: 0
+buildCostMultiplier: 6.857142
+fogRadius: 15
+shake: 1
+ammoUseEffect: none
+targetAir: false
+targetGround: true
+health: 300
+range: 120
+shootSound: shootLiquid
+shootY: 8
+inaccuracy: 5
+hasLiquids: true
+liquidCapacity: 50
+extinguish: true
+maxAmmo: 50
+ammoPerShot: 50
+
+requirements: 
+[
+item-wood/150
+item-iron/25
+]
+
+ammoTypes:
+{
+	water:
+	{
+	type: LiquidBulletType
+	despawnHit: true
+	liquid: water
+	puddleSize: 16
+	orbSize: 2.5
+	boilTime: 60
+
+	knockback: 0.2
+	lifetime: 40
+	speed: 3
+	damage: 0
+
+	shootEffect: shootLiquid 
+	smokeEffect: none
+	hitEffect: hitLiquid 
+	hitSound: none
+	despawnSound: none
+
+	lightOpacity: 0
+	lightRadius: 0
+	}
+}

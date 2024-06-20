@@ -1,8 +1,7 @@
-type: Wall
-solid: false
+type: Floor
 buildVisibility: editorOnly
-destructible: false
-underBullets: true
-drawTeamOverlay: false
-breakSound: block-destroy
-destroySound: block-destroy
+variants: 0
+hasColor: true
+mapColor: 85a478
+useColor: true
+speedMultiplier: 1

@@ -7,3 +7,4 @@ underBullets: true
 drawTeamOverlay: false
 breakSound: block-destroy
 destroySound: block-destroy
+hasShadow: false

@@ -11,7 +11,9 @@ placeSound: digging
 breakSound: block-destroy
 destroySound: block-destroy
 squareSprite: false
-leaks: false
+leaks: true
 liquidCapacity: 1
 junctionReplacement: mm-block-canal-junction
 bridgeReplacement: mm-block-aqueduct
+ambientSound: waterAmbient
+ambientSoundVolume: 0.01
