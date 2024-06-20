@@ -7,6 +7,5 @@ variants: 5
 hasColor: true
 mapColor: 85a478
 useColor: true
-attributes: {wood: 1}
+attributes: {wood: 1, water: 0.15}
 allowCorePlacement: true
-attributes: {water: 0.15}
