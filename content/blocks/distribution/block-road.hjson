@@ -17,3 +17,7 @@ loadEffect: none
 unloadEffect: none
 recharge: 1
 outputRouter: false
+ambientSound: road-ambient
+ambientSoundVolume: 0.01
+loopSound: road-ambient
+loopSoundVolume: 0.01

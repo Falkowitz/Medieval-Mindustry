@@ -13,6 +13,8 @@ fogRadius: 3
 hasItems: true
 solid: false
 itemCapacity: 300
+ambientSound: training-ground-ambient
+ambientSoundVolume: 0.04
 requirements: [
 	item-wood/500,
 	item-food/250
