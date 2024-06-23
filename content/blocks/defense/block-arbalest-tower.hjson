@@ -1,54 +1,31 @@
-type: mech
-speed: 0.35
-hitSize: 4
-health: 125
-range: 80
-maxRange: 80
+type: PowerTurret
+placeSound: block-place
+breakSound: block-destroy
+destroySound: block-destroy
+size: 2
+category: defense
+reload: 300
+recoil: 0.5
+maxAmmo: 90
+outlineRadius: 0
+buildCostMultiplier: 3.6
+fogRadius: 25
+shake: 0
+ammoUseEffect: none
 targetAir: true
-createScorch: false
-commands: [move]
-outlines: false
-mechSideSway: 0.1
-mechFrontSway: 0.25
-deathSound: sound-death2
-deathExplosionEffect: {
-	type: ParticleEffect
-	cone: 1
-	region: mm-blood
-	sizeFrom: 1
-	sizeTo: 10
-	lifetime: 3600
-	colorFrom: 800000
-	colorTo: 800000
-	lightOpacity: 0
-	lightScl: 0
-	particles: 1
-	layer: 28
-	randLength: false
-	length: 1
-	baseLength: 1
-	lenFrom: 1
-	lenTo: 1
-	strokeFrom: 0
-	strokeTo: 0
-	cap: false
-}
-weapons: [
-		{
-		name: unit-range-arbalest-weapon
-		mirror: false
-		showStatSprite: false
-		top: false
-		reload: 144
-		recoil: 0.4
-		shootX: 2
-		shootY: 4
-		x: 0
-		y: 0
-		layerOffset: -0.0001
-		shootSound: sound-crossbow-fire
-		shootStatus: slow
-		shootStatusDuration: 144
+targetGround: true
+health: 800
+range: 200
+shootSound: sound-crossbow-fire
+shootY: 4
+requirements: 
+[
+item-wood/700
+item-iron/300
+]
+
+drawer: {
+	type: DrawTurret
 		parts: [
 			{
 			suffix: "-lhand"
@@ -80,7 +57,7 @@ weapons: [
 			moveX: -0.8
 			moveY: -0.8
 			mirror: false
-			outline: false
+			outline: false						layerOffset: -0.0001
 			moves: [
 					{
 					type: PartMove
@@ -90,7 +67,8 @@ weapons: [
 				]
 			}
 		]
-		bullet: {
+	}
+	shootType: {
 			type: BasicBulletType
 			sprite: mm-arrow-front
 			backSprite: mm-arrow-back
@@ -131,19 +109,6 @@ weapons: [
 			maxRange: 80
 			shrinkX: 0
 			shrinkY: 0
+			pierce: true
 			pierceArmor: true
-			buildingDamageMultiplier: 0.25
-			}
-		shoot: {
-			shots: 1
-			firstShotDelay: 48
-			}
-		}
-	]
-abilities: [
-		{
-		type: SpawnDeathAbility
-		unit: unit-range-arbalest-corpse
-		spread: 4
-		}
-	]
+	}

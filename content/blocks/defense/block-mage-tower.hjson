@@ -1,0 +1,87 @@
+type: PowerTurret
+placeSound: block-place
+breakSound: block-destroy
+destroySound: block-destroy
+size: 2
+category: defense
+reload: 360
+recoil: 0.5
+maxAmmo: 90
+outlineRadius: 0
+buildCostMultiplier: 3.6
+fogRadius: 20
+shake: 0
+ammoUseEffect: none
+targetAir: true
+targetGround: true
+health: 450
+range: 160
+shootSound: fireball-cast
+shootY: 4
+requirements: 
+[
+item-wood/750
+item-iron/350
+]
+
+drawer: {
+	type: DrawTurret
+		parts: [
+			{
+			suffix: "-rhand"
+			type: RegionPart
+			progress: warmup
+			layerOffset: -0.0001
+			x: 1.8
+			y: 0
+			moveRot: 15
+			moveX: -0.8
+			moveY: 0.8
+			mirror: false
+			outline: false
+			}
+		]
+	}
+	shootType: {
+			type: BasicBulletType
+			/*sprite: mm-arrow-front
+			backSprite: mm-arrow-back
+			frontColor: b0bac0
+			backColor: 90776a*/
+			shootEffect: none
+			smokeEffect: none
+			recoil: 1
+			hitEffect: explosion 
+			despawnEffect: none
+			hitSound: explosion-small
+			despawnSound: none
+			hitShake: 3
+			despawnShake: 3
+			lifetime: 88
+			speed: 1
+			damage: 20
+			splashDamage: 20
+			splashDamageRadius: 24
+			hittable: false
+			despawnHit: true
+			trailColor: ffa665
+			trailLength: 8
+			trailWidth: 0.4
+			trailSize: 0.4
+			trailEffect: none
+			width: 5
+			height: 5
+			lightRadius: 0
+			lightOpacity: 1
+			lightColor: ffa665
+			range: 88
+			maxRange: 88
+			shrinkX: 0
+			shrinkY: 0
+			buildingDamageMultiplier: 0.25
+			spin: 5
+			makeFire: true
+			incendChance: 1
+			incendSpread: 8
+			incendAmount: 3
+			}
