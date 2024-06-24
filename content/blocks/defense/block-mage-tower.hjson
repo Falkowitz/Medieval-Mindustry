@@ -8,7 +8,7 @@ reload: 360
 recoil: 0.5
 maxAmmo: 90
 outlineRadius: 0
-buildCostMultiplier: 3.6
+buildCostMultiplier: 3.27
 fogRadius: 20
 shake: 0
 ammoUseEffect: none

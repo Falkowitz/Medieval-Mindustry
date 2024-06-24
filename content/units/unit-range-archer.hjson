@@ -49,6 +49,8 @@ weapons: [
 		shootSound: sound-bow-fire
 		shootStatus: slow
 		shootStatusDuration: 60
+		inaccuracy: 3
+		predictTarget: true
 		bullet: {
 			type: ArtilleryBulletType
 			sprite: mm-arrow-front

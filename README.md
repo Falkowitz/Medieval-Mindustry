@@ -53,7 +53,7 @@ Will be done after content is be finished
 ### Range Tree
 - Archer
 - Arbalest
-- TODO Musketeer
+- Musketeer
 ## Special Tree
 ### Special Tree
 - Farmer

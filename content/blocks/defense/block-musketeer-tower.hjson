@@ -1,55 +1,31 @@
-type: mech
-speed: 0.25
-hitSize: 4
-health: 90
-range: 176
-maxRange: 176
+type: PowerTurret
+placeSound: block-place
+breakSound: block-destroy
+destroySound: block-destroy
+size: 2
+category: defense
+reload: 900
+recoil: 1
+maxAmmo: 90
+outlineRadius: 0
+buildCostMultiplier: 3.27
+fogRadius: 30
+shake: 0
+ammoUseEffect: none
 targetAir: true
-createScorch: false
-commands: [move]
-outlines: false
-mechSideSway: 0.1
-mechFrontSway: 0.25
-deathSound: sound-death1
-deathExplosionEffect: {
-	type: ParticleEffect
-	cone: 1
-	region: mm-blood
-	sizeFrom: 1
-	sizeTo: 10
-	lifetime: 3600
-	colorFrom: 800000
-	colorTo: 800000
-	lightOpacity: 0
-	lightScl: 0
-	particles: 1
-	layer: 28
-	randLength: false
-	length: 1
-	baseLength: 1
-	lenFrom: 1
-	lenTo: 1
-	strokeFrom: 0
-	strokeTo: 0
-	cap: false
-}
-weapons: [
-		{
-		name: unit-range-musketeer-weapon
-		mirror: false
-		showStatSprite: false
-		top: false
-		reload: 900
-		recoil: 0.4
-		shootX: 2
-		shootY: 6
-		x: 0
-		y: 0
-		layerOffset: -0.0001
-		shootSound: sound-musket-fire
-		shootStatus: unmoving
-		shootStatusDuration: 180
-		predictTarget: true
+targetGround: true
+health: 450
+range: 240
+shootSound: sound-musket-fire
+shootY: 6
+requirements: 
+[
+item-wood/750
+item-iron/350
+]
+
+drawer: {
+	type: DrawTurret
 		parts: [
 			{
 			suffix: "-lhand"
@@ -80,6 +56,7 @@ weapons: [
 			moveRot: -45
 			moveX: -0.8
 			moveY: -0.8
+			layerOffset: -0.0001
 			mirror: false
 			outline: false
 			moves: [
@@ -91,7 +68,8 @@ weapons: [
 				]
 			}
 		]
-		bullet: {
+	}
+	shootType: {
 			type: BasicBulletType
 			shootEffect: shootSmall 
 			smokeEffect: shootSmallSmoke
@@ -101,7 +79,7 @@ weapons: [
 			despawnSound: snone
 			hitShake: 0
 			despawnShake: 0
-			lifetime: 35.2
+			lifetime: 48
 			speed: 5
 			damage: 85
 			hittable: false
@@ -119,8 +97,8 @@ weapons: [
 			lightRadius: 0
 			lightOpacity: 1
 			lightColor: ffffff
-			range: 144
-			maxRange: 144
+			range: 240
+			maxRange: 240
 			shrinkX: 0
 			shrinkY: 0
 			pierce: true
@@ -128,17 +106,4 @@ weapons: [
 			pierceBuilding: true
 			pierceDamageFactor: 0.75
 			buildingDamageMultiplier: 0.1
-			}
-		shoot: {
-			shots: 1
-			firstShotDelay: 60
-			}
-		}
-	]
-abilities: [
-		{
-		type: SpawnDeathAbility
-		unit: unit-range-musketeer-corpse
-		spread: 4
-		}
-	]
+	}

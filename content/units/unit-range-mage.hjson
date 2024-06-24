@@ -49,6 +49,8 @@ weapons: [
 		shootSound: fireball-cast
 		shootStatus: slow
 		shootStatusDuration: 180
+		inaccuracy: 1
+		predictTarget: true
 		parts: [
 			{
 			suffix: "-rhand"

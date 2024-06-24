@@ -49,6 +49,8 @@ weapons: [
 		shootSound: sound-crossbow-fire
 		shootStatus: slow
 		shootStatusDuration: 144
+		inaccuracy: 1
+		predictTarget: true
 		parts: [
 			{
 			suffix: "-lhand"
