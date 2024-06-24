@@ -21,22 +21,6 @@ requirements: [
 ]
 plans: [
 		{
-		unit: unit-special-hot-balloon
-		time: 2700
-		requirements: [
-			mm-item-food/100
-			mm-item-wood/300
-			]
-		},
-		{
-		unit: unit-special-farmer
-		time: 1800
-		requirements: [
-			mm-item-food/30
-			mm-item-hoe/1
-			]
-		},
-		{
 		unit: unit-offence-swordsman
 		time: 900
 		requirements: [
@@ -123,6 +107,32 @@ plans: [
 		requirements: [
 			mm-item-food/75
 			mm-item-musket/1
+			]
+		},
+		{
+		unit: unit-special-hot-balloon
+		time: 2700
+		requirements: [
+			mm-item-food/100
+			mm-item-wood/300
+			]
+		},
+		{
+		unit: unit-special-farmer
+		time: 1800
+		requirements: [
+			mm-item-food/30
+			mm-item-hoe/1
+			]
+		},
+		{
+		unit: unit-special-centurion
+		time: 1800
+		requirements:
+			[
+			mm-item-food/90
+			mm-item-shield/1
+			mm-item-sword/1
 			]
 		}
 	]

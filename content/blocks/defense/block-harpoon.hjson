@@ -15,6 +15,7 @@ ammoUseEffect: none
 targetAir: true
 targetGround: true
 health: 400
+outlineRadius: 0
 range: 280
 shootSound: ballista-fire
 shootY: 4

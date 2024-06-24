@@ -1,0 +1,73 @@
+health: 999999
+name: debuff
+armor: 0
+speed: 0
+hitSize: 0
+physics: false
+outlines: false
+fogRadius: 0
+hidden: true
+drawCell: false
+internal: true
+range: 0
+targetAir: false
+targetGround: false
+deathExplosionEffect: none
+deathSound: low-morale
+hittable: false
+drawMinimap: false
+targetable: false
+weapons:
+[
+	{
+	name: none
+	shootOnDeath: true
+	shootCone: 180
+	x: 0
+	y: 0
+	useAmmo: false
+	ejectEffect: none
+	reload: 60
+	mirror: false
+	rotate: false
+	shootSound: low-morale
+	alwaysShooting: true
+	bullet:{
+		type: BasicBulletType
+		damage: 0
+		instantDisappear: true
+		speed: 0
+		collides: true
+		collidesTiles: true
+		collidesGround: true
+		collidesAir: true
+		killShooter: true
+		splashDamage: 0
+		splashDamageRadius: 0
+		width: 0
+		height: 0
+		range: 0
+		despawnEffect: none
+		shootEffect: none
+		chargeEffect: none
+		smokeEffect: none
+		hittable: false
+		reflectable: false
+		}
+	shoot: {
+		shots: 1
+		firstShotDelay: 0
+		shotDelay: 0
+		}
+	}
+]
+abilities: 
+[
+	{
+	type: StatusFieldAbility
+	effect: status-low-morale
+	duration: 900
+	reload: 0
+	range: 32
+	}
+]

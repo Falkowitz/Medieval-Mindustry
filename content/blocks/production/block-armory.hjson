@@ -79,7 +79,7 @@ output: mm-item-book
 craftTime: 600
 },
 {
-input: {items: [mm-item-wood/4, mm-item-iron-5]}
+input: {items: [mm-item-wood/4, mm-item-iron/5]}
 output: mm-item-musket
 craftTime: 480
 }

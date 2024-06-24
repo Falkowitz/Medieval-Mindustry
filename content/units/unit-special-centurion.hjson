@@ -1,0 +1,138 @@
+type: mech
+speed: 0.25
+hitSize: 4
+health: 215
+range: 24
+armor: 0
+maxRange: 24
+targetAir: false
+createScorch: false
+commands: [move]
+outlines: false
+mechSideSway: 0.1
+mechFrontSway: 0.25
+deathSound: sound-death3
+deathExplosionEffect: {
+	type: ParticleEffect
+	cone: 1
+	region: mm-blood
+	sizeFrom: 1
+	sizeTo: 10
+	lifetime: 3600
+	colorFrom: 800000
+	colorTo: 800000
+	lightOpacity: 0
+	lightScl: 0
+	particles: 1
+	layer: 28
+	randLength: false
+	length: 1
+	baseLength: 1
+	lenFrom: 1
+	lenTo: 1
+	strokeFrom: 0
+	strokeTo: 0
+	cap: false
+}
+weapons: [
+		{
+		name: unit-special-centurion-weapon
+		mirror: false
+		showStatSprite: false
+		top: false
+		reload: 180
+		recoil: 0
+		shootX: 0
+		shootY: 8
+		x: 0
+		y: 0
+		layerOffset: -0.01
+		shootSound: sound-swish
+		parts: [
+			{
+			suffix: "-rhand"
+			type: RegionPart
+			progress: recoil
+			x: 1.8
+			y: 0
+			moveRot: 15
+			moveY: 1.2
+			moveX: -1.2
+			growY: 0.4
+			mirror: false
+			outline: false
+			}
+		]
+		bullet: {
+			type: BasicBulletType
+			shootEffect: none
+			smokeEffect: none
+			lifetime: 60
+			speed: 1
+			damage: 25
+			recoil: -1
+			instantDisappear: true
+			splashDamage: 25
+			splashDamageRadius: 8
+			hittable: false
+			despawnHit: true
+			width: 0
+			height: 0
+			range: 32
+			maxRange: 32
+			pierce: true
+			hitEffect: {
+				type: ExplosionEffect
+				lifetime: 15
+				smokes: 0
+				sparks: 4
+				waveColor: ffffffff
+				smokeColor: ffffffff
+				sparkColor: ffffffff
+				waveLife: 15
+				waveStroke: 1
+				waveRad: 2
+				waveRadBase: 0
+				sparkStroke: 1
+				sparkRad: 2
+				sparkLen: 2
+				}
+			despawnEffect: {
+				type: ExplosionEffect
+				lifetime: 15
+				smokes: 0
+				sparks: 4
+				waveColor: ffffffff
+				smokeColor: ffffffff
+				sparkColor: ffffffff
+				waveLife: 15
+				waveStroke: 1
+				waveRad: 2
+				waveRadBase: 0
+				sparkStroke: 1
+				sparkRad: 2
+				sparkLen: 2
+				}
+			}
+		}
+	]
+abilities: [
+		{
+		type: SpawnDeathAbility
+		unit: unit-special-centurion-corpse
+		spread: 4
+		}
+		{
+		type: SpawnDeathAbility
+		unit: unit-special-centurion-debuff
+		spread: 0
+		amount: 1
+		}
+		{
+		type: StatusFieldAbility
+		effect: status-high-morale
+		duration: 600
+		reload: 780
+		range: 24
+		}
+	]
