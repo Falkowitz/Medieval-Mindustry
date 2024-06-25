@@ -134,6 +134,15 @@ plans: [
 			mm-item-shield/1
 			mm-item-sword/1
 			]
+		},
+		{
+		unit: unit-special-color-bearer
+		time: 1800
+		requirements:
+			[
+			mm-item-food/65
+			mm-item-flag/1
+			]
 		}
 	]
 //умножение источника на 3
