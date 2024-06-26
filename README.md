@@ -118,9 +118,6 @@ Will be done after content is be finished
 - Armory
 
 ### Units
-- Training Ground
-
-- Change to:
 - Offence Training Ground
 - Defence Training Ground
 - Range Training Ground
