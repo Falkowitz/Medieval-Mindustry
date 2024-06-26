@@ -1,0 +1,49 @@
+type: UnitFactory
+category: units
+placeSound: block-place
+breakSound: block-destroy
+destroySound: block-destroy
+size: 3
+configurable: true
+buildCostMultiplier: 4.8
+rotate: true
+quickRotate: true
+health: 500
+fogRadius: 3
+hasItems: true
+solid: true
+itemCapacity: 300
+ambientSound: defence-training-ground-ambient
+ambientSoundVolume: 0.04
+requirements: [
+	item-iron/500,
+	item-food/200
+]
+plans: [
+		{
+		unit: unit-defence-shieldbearer
+		time: 1125
+		requirements: [
+			mm-item-food/60
+			mm-item-shield/1
+			]
+		},
+		{
+		unit: unit-defence-macebearer
+		time: 1350
+		requirements: [
+			mm-item-food/70
+			mm-item-mace/1
+			]
+		},
+		{
+		unit: unit-defence-legionary
+		time: 1800
+		requirements: [
+			mm-item-food/80
+			mm-item-shield/1
+			mm-item-spear/1
+			]
+		}
+	]
+//умножение источника на 3

@@ -1,0 +1,60 @@
+type: UnitFactory
+category: units
+placeSound: block-place
+breakSound: block-destroy
+destroySound: block-destroy
+size: 3
+configurable: true
+buildCostMultiplier: 4.8
+rotate: true
+quickRotate: true
+health: 500
+fogRadius: 3
+hasItems: true
+solid: true
+itemCapacity: 300
+ambientSound: special-training-ground-ambient
+ambientSoundVolume: 0.04
+requirements: [
+	item-wood/300,
+	item-iron/300,
+	item-food/100
+]
+plans: [
+		{
+		unit: unit-special-hot-balloon
+		time: 2700
+		requirements: [
+			mm-item-food/100
+			mm-item-wood/300
+			]
+		},
+		{
+		unit: unit-special-farmer
+		time: 1800
+		requirements: [
+			mm-item-food/30
+			mm-item-hoe/1
+			]
+		},
+		{
+		unit: unit-special-centurion
+		time: 1800
+		requirements:
+			[
+			mm-item-food/90
+			mm-item-shield/1
+			mm-item-sword/1
+			]
+		},
+		{
+		unit: unit-special-color-bearer
+		time: 1800
+		requirements:
+			[
+			mm-item-food/65
+			mm-item-flag/1
+			]
+		}
+	]
+//умножение источника на 3

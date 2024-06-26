@@ -1,0 +1,56 @@
+type: UnitFactory
+category: units
+placeSound: block-place
+breakSound: block-destroy
+destroySound: block-destroy
+size: 3
+configurable: true
+buildCostMultiplier: 4.8
+rotate: true
+quickRotate: true
+health: 500
+fogRadius: 3
+hasItems: true
+solid: true
+itemCapacity: 300
+ambientSound: range-training-ground-ambient
+ambientSoundVolume: 0.04
+requirements: [
+	item-wood/500,
+	item-food/250
+]
+plans: [
+		{
+		unit: unit-range-archer
+		time: 900
+		requirements: [
+			mm-item-food/55
+			mm-item-bow/1
+			]
+		},
+		{
+		unit: unit-range-arbalest
+		time: 1350
+		requirements: [
+			mm-item-food/75
+			mm-item-crossbow/1
+			]
+		},
+		{
+		unit: unit-range-mage
+		time: 1800
+		requirements: [
+			mm-item-food/80
+			mm-item-book/1
+			]
+		},
+		{
+		unit: unit-range-musketeer
+		time: 1800
+		requirements: [
+			mm-item-food/75
+			mm-item-musket/1
+			]
+		}
+	]
+//умножение источника на 3

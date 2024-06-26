@@ -1,0 +1,57 @@
+type: UnitFactory
+category: units
+placeSound: block-place
+breakSound: block-destroy
+destroySound: block-destroy
+size: 3
+configurable: true
+buildCostMultiplier: 4.8
+rotate: true
+quickRotate: true
+health: 500
+fogRadius: 3
+hasItems: true
+solid: true
+itemCapacity: 300
+ambientSound: offence-training-ground-ambient
+ambientSoundVolume: 0.04
+requirements: [
+	item-wood/250,
+	item-iron/250,
+	item-food/200
+]
+plans: [
+		{
+		unit: unit-offence-swordsman
+		time: 900
+		requirements: [
+			mm-item-food/50
+			mm-item-sword/1
+			]
+		},
+		{
+		unit: unit-offence-halberdier
+		time: 1350
+		requirements: [
+			mm-item-food/70
+			mm-item-halberd/1
+			]
+		},
+		{
+		unit: unit-offence-hammerbearer
+		time: 1800
+		requirements: [
+			mm-item-food/80
+			mm-item-hammer/1
+			]
+		},
+		{
+		unit: unit-offence-pikeman
+		time: 1350
+		requirements: [
+			mm-item-food/70
+			mm-item-spear/1
+			]
+		}
+	]
+//умножение источника на 3

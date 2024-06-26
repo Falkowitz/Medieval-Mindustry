@@ -19,12 +19,17 @@ buildSpeed: 0.1
 buildRange: 400000
 mineSpeed: 0
 mineTier: 1
-itemCapacity: 0
+itemCapacity: 5
 targetable: false
 hittable: false
 payloadCapacity: 0
 pickupUnits: false
 outlines: false
 fogRadius: 0
-//immunities: [
-//]
+immunities: [
+mm-status-forced-march
+mm-status-high-morale
+mm-status-low-morale
+mm-status-roll
+mm-status-stun
+]
