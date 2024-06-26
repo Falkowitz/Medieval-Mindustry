@@ -2,8 +2,6 @@
 
 //todo README
 
-//todo LOGO
-
 // i dunno, never detailed readme this much
 # Medieval-Mindustry
 (how original)
@@ -57,10 +55,10 @@ Will be done after content is be finished
 ## Special Tree
 ### Special Tree
 - Farmer
-- TODO Mage
+- Mage
 - TODO King
-- TODO Centurion
-- TODO Standardbearer
+- Centurion
+- Standardbearer
 - TODO Priest
 - TODO Doctor
 ### Siege Tree
@@ -77,12 +75,12 @@ Will be done after content is be finished
 
 ### Defence
 - Archer Tower
-- TODO Arbalest Tower
+- Arbalest Tower
 - TODO Catapult Tower
 - TODO Hot Oil Tower
 - TODO Ballista Tower
-- TODO Musketeer Tower
-- TODO Mage Tower
+- Musketeer Tower
+- Mage Tower
 - Springboard
 - Fireworks
 - Beartrap
@@ -122,6 +120,12 @@ Will be done after content is be finished
 ### Units
 - Training Ground
 
+- Change to:
+- Offence Training Ground
+- Defence Training Ground
+- Range Training Ground
+- Special Training Ground
+
 ### Effect
 - Castle
 - TODO Outpost
@@ -147,6 +151,9 @@ Will be done after content is be finished
 ### Units
 - Stun
 - Roll
+- Forced March
+- High Morale
+- Low Morale
 
 ## Items
 ### Resources
@@ -165,6 +172,8 @@ Will be done after content is be finished
 - Crossbow
 - Book
 - Hoe
+- Musket
+- Flag
 
 ## Maps
 - Meadow
