@@ -4,7 +4,7 @@ breakSound: block-destroy
 destroySound: block-destroy
 size: 2
 category: defense
-reload: 360
+reload: 1200
 recoil: 0.5
 maxAmmo: 90
 outlineRadius: 0
@@ -14,8 +14,8 @@ shake: 0
 ammoUseEffect: none
 targetAir: true
 targetGround: true
-health: 450
-range: 160
+health: 400
+range: 112
 shootSound: fireball-cast
 shootY: 4
 requirements: 
