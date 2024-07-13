@@ -23,3 +23,6 @@ loopSoundVolume: 0.1
 ambientSound: none
 ambientSoundVolume: 0.1
 itemCapacity: 50
+lightColor: fbd367ff
+emitLight: true
+lightRadius: 24

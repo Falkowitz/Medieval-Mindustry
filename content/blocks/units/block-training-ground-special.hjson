@@ -15,6 +15,9 @@ solid: true
 itemCapacity: 300
 ambientSound: special-training-ground-ambient
 ambientSoundVolume: 0.04
+lightColor: fbd367ff
+emitLight: true
+lightRadius: 24
 requirements: [
 	item-wood/300,
 	item-iron/300,

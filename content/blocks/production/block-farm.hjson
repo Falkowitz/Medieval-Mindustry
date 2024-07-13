@@ -14,6 +14,9 @@ hasLiquids: false
 hasPower: false
 buildCostMultiplier: 6
 craftTime: 120
+lightColor: fbd367ff
+emitLight: true
+lightRadius: 24
 requirements: [
 	item-wood/200
 ] 

@@ -12,6 +12,9 @@ hasLiquids: false
 hasPower: false
 buildCostMultiplier: 6
 squareSprite: false
+lightColor: fbd367ff
+emitLight: true
+lightRadius: 24
 requirements: [
 	mm-item-wood/200
 	mm-item-iron/50

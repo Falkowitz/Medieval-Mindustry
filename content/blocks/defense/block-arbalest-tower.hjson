@@ -24,6 +24,10 @@ item-wood/700
 item-iron/300
 ]
 
+lightColor: fbd367ff
+emitLight: true
+lightRadius: 24
+
 drawer: {
 	type: DrawTurret
 		parts: [

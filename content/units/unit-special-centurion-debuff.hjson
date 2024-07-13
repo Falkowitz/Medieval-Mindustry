@@ -17,6 +17,7 @@ deathSound: low-morale
 hittable: false
 drawMinimap: false
 targetable: false
+lightRadius: 0
 weapons:
 [
 	{

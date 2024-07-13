@@ -22,6 +22,7 @@ buildBeamOffset: 4
 mineSound: none
 drawBuildBeam: false
 itemOffsetY: 4
+lightRadius: 0
 mineItems:
 [
 item-food

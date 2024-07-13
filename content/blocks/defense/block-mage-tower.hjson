@@ -18,6 +18,9 @@ health: 400
 range: 112
 shootSound: fireball-cast
 shootY: 4
+lightColor: fbd367ff
+emitLight: true
+lightRadius: 24
 requirements: 
 [
 item-wood/750

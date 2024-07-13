@@ -1,0 +1,18 @@
+type: LightBlock
+breakable: false
+destructible: true
+size: 1
+health: 25
+category: effect
+buildVisibility: shown
+solid: false
+buildCostMultiplier: 7.2
+requirements: [
+	item-wood/25
+] 
+placeSound: block-place
+breakSound: block-destroy
+destroySound: block-destroy
+fogRadius: 5
+radius: 40
+configurable: false

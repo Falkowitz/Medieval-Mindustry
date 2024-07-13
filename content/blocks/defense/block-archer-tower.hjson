@@ -18,6 +18,9 @@ health: 800
 range: 240
 shootSound: sound-bow-fire
 shootY: 4
+lightColor: fbd367ff
+emitLight: true
+lightRadius: 24
 	requirements: [
 	item-wood/700
 	item-iron/300

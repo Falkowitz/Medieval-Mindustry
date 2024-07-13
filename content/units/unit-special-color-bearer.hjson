@@ -12,6 +12,7 @@ outlines: false
 mechSideSway: 0.1
 mechFrontSway: 0.25
 deathSound: sound-death2
+lightRadius: 0
 deathExplosionEffect: {
 	type: ParticleEffect
 	cone: 1

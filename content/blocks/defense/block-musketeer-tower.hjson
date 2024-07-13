@@ -18,6 +18,9 @@ health: 450
 range: 240
 shootSound: sound-musket-fire
 shootY: 6
+lightColor: fbd367ff
+emitLight: true
+lightRadius: 24
 requirements: 
 [
 item-wood/750

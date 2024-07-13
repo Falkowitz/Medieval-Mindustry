@@ -18,3 +18,6 @@ placeSound: block-place
 breakSound: block-destroy
 destroySound: block-destroy
 fogRadius: 5
+lightColor: fbd367ff
+emitLight: true
+lightRadius: 24

@@ -13,6 +13,7 @@ deathExplosionEffect: dynamicExplosion
 omniMovement: false
 rotateMoveFirst: true
 rotateSpeed: 1
+lightRadius: 0
 treadRects: [
 	{
 		x: 25

@@ -15,6 +15,9 @@ hasPower: false
 buildCostMultiplier: 6
 squareSprite: false
 craftTime: 180
+lightColor: fbd367ff
+emitLight: true
+lightRadius: 24
 requirements: [
 	item-wood/200
 ] 
