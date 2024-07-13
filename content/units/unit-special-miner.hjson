@@ -25,7 +25,7 @@ itemOffsetY: 4
 lightRadius: 0
 mineItems:
 [
-item-food
+item-iron
 ]
 deathExplosionEffect: {
 	type: ParticleEffect
@@ -52,10 +52,10 @@ deathExplosionEffect: {
 abilities: [
 		{
 		type: SpawnDeathAbility
-		unit: unit-special-farmer-corpse
+		unit: unit-special-miner-corpse
 		spread: 4
 		}
 	]
 immunities: [
-mm-status-fielded
+mm-status-mountained
 ]

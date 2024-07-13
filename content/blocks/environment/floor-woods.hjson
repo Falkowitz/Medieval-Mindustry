@@ -9,3 +9,5 @@ mapColor: 85a478
 useColor: true
 attributes: {wood: 1, water: 0.15}
 allowCorePlacement: true
+itemDrop: item-wood
+playerUnmineable: true

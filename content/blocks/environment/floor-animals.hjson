@@ -5,3 +5,5 @@ mapColor: e6e600
 useColor: true
 attributes: {food: 1}
 allowCorePlacement: true
+itemDrop: item-food
+playerUnmineable: true
