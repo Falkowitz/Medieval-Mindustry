@@ -37,3 +37,24 @@ loopSoundVolume: 0.01
 customShadow: true
 ambientSound: sound-block-sawmill-ambient
 ambientSoundVolume: 0.05
+destroyEffect: smokeCloud
+
+
+destroyBullet: {
+type: BasicBulletType
+width: 0
+height: 0
+instantDisappear: true
+damage: 0
+shootEffect: none
+hitEffect: none
+despawnEffect: none
+splashDamage: 0
+splashDamageRadius: 0
+hittable: false
+despawnHit: true
+despawnShake: 5
+hitShake: 5
+despawnUnit: block-sawmill-wreck
+trailEffect: none
+}

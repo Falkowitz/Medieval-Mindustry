@@ -26,3 +26,24 @@ itemCapacity: 50
 lightColor: fbd367ff
 emitLight: true
 lightRadius: 24
+destroyEffect: smokeCloud
+
+
+destroyBullet: {
+type: BasicBulletType
+width: 0
+height: 0
+instantDisappear: true
+damage: 0
+shootEffect: none
+hitEffect: none
+despawnEffect: none
+splashDamage: 0
+splashDamageRadius: 0
+hittable: false
+despawnHit: true
+despawnShake: 5
+hitShake: 5
+despawnUnit: block-windmill-wreck
+trailEffect: none
+}

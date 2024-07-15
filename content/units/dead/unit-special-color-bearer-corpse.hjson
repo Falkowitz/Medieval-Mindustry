@@ -27,3 +27,4 @@ lifetime: 3600
 deathExplosionEffect: none
 deathSound: none
 defaultController: MissileAI
+lightRadius: 0
