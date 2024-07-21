@@ -7,12 +7,12 @@ health: 300
 category: effect
 buildVisibility: shown
 rebuildable: true
-unitCapModifier: 2
+unitCapModifier: 1
 solid: true
 buildCostMultiplier: 6
 requirements: [
-	item-wood/200
-	item-food/50
+	item-wood/225
+	item-food/75
 ] 
 placeSound: block-place
 breakSound: block-destroy

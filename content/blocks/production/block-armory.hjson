@@ -3,7 +3,7 @@ variants: 0
 destructible: true
 rotate: false
 size: 2
-health: 500
+health: 750
 category: crafting
 buildVisibility: shown
 solid: true

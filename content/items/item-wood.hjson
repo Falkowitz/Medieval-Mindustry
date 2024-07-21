@@ -1,6 +1,6 @@
 name: Wood
 hardness: 1
-flammability: 0.5
+flammability: 0.1
 lowPriority: false
 buildable: true
 cost: 1

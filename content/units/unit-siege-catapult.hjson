@@ -1,4 +1,5 @@
 type: tank
+fogRadius: 15
 speed: 0.3
 hitSize: 24
 health: 300

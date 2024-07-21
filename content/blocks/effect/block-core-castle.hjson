@@ -1,5 +1,5 @@
 type: CoreBlock
-health: 5000
+health: 10000
 itemCapacity: 5000
 size: 9
 unitCapModifier: 8

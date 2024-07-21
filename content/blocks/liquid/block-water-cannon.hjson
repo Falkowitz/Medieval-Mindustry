@@ -13,7 +13,7 @@ shake: 1
 ammoUseEffect: none
 targetAir: false
 targetGround: true
-health: 300
+health: 500
 range: 120
 shootSound: shootLiquid
 shootY: 8

@@ -4,7 +4,7 @@ breakable: false
 destructible: true
 rotate: false
 size: 2
-health: 300
+health: 500
 category: production
 buildVisibility: shown
 rebuildable: true

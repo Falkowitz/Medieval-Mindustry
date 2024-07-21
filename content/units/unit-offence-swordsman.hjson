@@ -1,4 +1,5 @@
 type: mech
+fogRadius: 3
 speed: 0.35
 hitSize: 4
 health: 185

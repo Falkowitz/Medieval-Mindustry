@@ -1,4 +1,5 @@
 flying: true
+fogRadius: 3
 speed: 0.3
 acceleration: 0.001
 drag: 0.001
@@ -20,6 +21,7 @@ deathSound: balloon-pop
 canAttack: false
 engineSize: 0
 shadowElevation: -100
+fogRadius: 0
 abilities: [
 		{
 		type: SpawnDeathAbility
