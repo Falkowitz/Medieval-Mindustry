@@ -1,26 +1,26 @@
 type: mech
-fogRadius: 3
-speed: 0.25
+fogRadius: 5
+speed: 0.3
 hitSize: 4
-health: 215
-range: 24
+health: 150
+range: 16
 armor: 0
-maxRange: 24
+maxRange: 16
 targetAir: false
 createScorch: false
 commands: [move]
 outlines: false
 mechSideSway: 0.1
 mechFrontSway: 0.25
-deathSound: sound-death3
-lightRadius: 0
+deathSound: sound-death2
+lightRadius: 40
 deathExplosionEffect: {
 	type: ParticleEffect
 	cone: 1
 	region: mm-blood
 	sizeFrom: 1
 	sizeTo: 10
-	lifetime: 3600
+	lifetime: 1800
 	colorFrom: 800000
 	colorTo: 800000
 	lightOpacity: 0
@@ -38,14 +38,14 @@ deathExplosionEffect: {
 }
 weapons: [
 		{
-		name: unit-special-centurion-weapon
+		name: unit-special-torchbearer-weapon
 		mirror: false
 		showStatSprite: false
 		top: false
 		reload: 180
 		recoil: 0
 		shootX: 0
-		shootY: 8
+		shootY: 20
 		x: 0
 		y: 0
 		layerOffset: -0.01
@@ -71,70 +71,29 @@ weapons: [
 			smokeEffect: none
 			lifetime: 60
 			speed: 1
-			damage: 25
+			damage: 10
 			recoil: -1
 			instantDisappear: true
-			splashDamage: 25
+			splashDamage: 10
 			splashDamageRadius: 8
 			hittable: false
 			despawnHit: true
 			width: 0
 			height: 0
-			range: 32
-			maxRange: 32
+			range: 16
+			maxRange: 16
 			pierce: true
-			hitEffect: {
-				type: ExplosionEffect
-				lifetime: 15
-				smokes: 0
-				sparks: 4
-				waveColor: ffffffff
-				smokeColor: ffffffff
-				sparkColor: ffffffff
-				waveLife: 15
-				waveStroke: 1
-				waveRad: 2
-				waveRadBase: 0
-				sparkStroke: 1
-				sparkRad: 2
-				sparkLen: 2
-				}
-			despawnEffect: {
-				type: ExplosionEffect
-				lifetime: 15
-				smokes: 0
-				sparks: 4
-				waveColor: ffffffff
-				smokeColor: ffffffff
-				sparkColor: ffffffff
-				waveLife: 15
-				waveStroke: 1
-				waveRad: 2
-				waveRadBase: 0
-				sparkStroke: 1
-				sparkRad: 2
-				sparkLen: 2
-				}
+			makeFire: true
+			incendChance: 1
+			incendSpread: 4
+			incendAmount: 1
 			}
 		}
 	]
 abilities: [
 		{
 		type: SpawnDeathAbility
-		unit: unit-special-centurion-corpse
+		unit: unit-special-torchbearer-corpse
 		spread: 4
-		}
-		{
-		type: SpawnDeathAbility
-		unit: unit-special-centurion-debuff
-		spread: 0
-		amount: 1
-		}
-		{
-		type: StatusFieldAbility
-		effect: status-high-morale
-		duration: 600
-		reload: 780
-		range: 24
 		}
 	]

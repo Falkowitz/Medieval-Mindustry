@@ -123,3 +123,6 @@ abilities: [
 		spread: 4
 		}
 	]
+immunities: [
+burning
+]

@@ -47,6 +47,11 @@ output: mm-item-pickaxe
 craftTime: 600
 },
 {
+input: {items: [mm-item-wood/10]}
+output: mm-item-torch
+craftTime: 600
+},
+{
 input: {items: [mm-item-wood/1, mm-item-iron/3]}
 output: mm-item-sword
 craftTime: 180

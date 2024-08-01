@@ -57,6 +57,14 @@ plans: [
 			]
 		},
 		{
+		unit: unit-special-torchbearer
+		time: 1800
+		requirements: [
+			mm-item-food/75
+			mm-item-torch/1
+			]
+		},
+		{
 		unit: unit-special-centurion
 		time: 1800
 		requirements:
