@@ -26,6 +26,7 @@ itemCapacity: 50
 lightColor: fbd367ff
 emitLight: true
 lightRadius: 24
+/*
 destroyEffect: smokeCloud
 
 
@@ -47,3 +48,4 @@ hitShake: 5
 despawnUnit: block-windmill-wreck
 trailEffect: none
 }
+*/

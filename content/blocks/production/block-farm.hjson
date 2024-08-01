@@ -36,6 +36,7 @@ loopSoundVolume: 0.05
 customShadow: true
 ambientSound: sound-block-farm-ambient
 ambientSoundVolume: 0.05
+/*
 destroyEffect: smokeCloud
 
 
@@ -57,3 +58,4 @@ hitShake: 5
 despawnUnit: block-farm-wreck
 trailEffect: none
 }
+*/

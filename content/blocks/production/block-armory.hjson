@@ -102,6 +102,7 @@ output: mm-item-flag
 craftTime: 600
 }
 ]
+/*
 destroyEffect: smokeCloud
 
 
@@ -123,3 +124,4 @@ hitShake: 5
 despawnUnit: block-armory-wreck
 trailEffect: none
 }
+*/

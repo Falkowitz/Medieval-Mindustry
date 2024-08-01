@@ -1,4 +1,4 @@
-type: CoreBlock
+ type: CoreBlock
 health: 10000
 itemCapacity: 5000
 size: 9
@@ -22,3 +22,27 @@ breakSound: block-destroy
 destroySound: block-destroy
 thrusterLength: 0
 squareSprite: false
+//doesn't work thanks game
+/*
+destroyEffect: smokeCloud
+
+
+destroyBullet: {
+type: BasicBulletType
+width: 0
+height: 0
+instantDisappear: true
+damage: 0
+shootEffect: none
+hitEffect: none
+despawnEffect: none
+splashDamage: 0
+splashDamageRadius: 0
+hittable: false
+despawnHit: true
+despawnShake: 5
+hitShake: 5
+despawnUnit: block-core-castle-wreck
+trailEffect: none
+}
+*/

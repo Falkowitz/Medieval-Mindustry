@@ -16,3 +16,26 @@ destroySound: block-destroy
 fogRadius: 5
 radius: 40
 configurable: false
+/*
+destroyEffect: smokeCloud
+
+
+destroyBullet: {
+type: BasicBulletType
+width: 0
+height: 0
+instantDisappear: true
+damage: 0
+shootEffect: none
+hitEffect: none
+despawnEffect: none
+splashDamage: 0
+splashDamageRadius: 0
+hittable: false
+despawnHit: true
+despawnShake: 5
+hitShake: 5
+despawnUnit: block-torch-wreck
+trailEffect: none
+}
+*/

@@ -37,6 +37,7 @@ loopSoundVolume: 0.01
 customShadow: true
 ambientSound: sound-block-sawmill-ambient
 ambientSoundVolume: 0.05
+/*
 destroyEffect: smokeCloud
 
 
@@ -58,3 +59,4 @@ hitShake: 5
 despawnUnit: block-sawmill-wreck
 trailEffect: none
 }
+*/

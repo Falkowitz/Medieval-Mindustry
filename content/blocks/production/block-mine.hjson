@@ -35,6 +35,7 @@ loopSound: none
 loopSoundVolume: 0.01
 ambientSound: sound-block-mine-ambient
 ambientSoundVolume: 0.05
+/*
 destroyEffect: smokeCloud
 
 
@@ -56,3 +57,4 @@ hitShake: 5
 despawnUnit: block-mine-wreck
 trailEffect: none
 }
+*/
