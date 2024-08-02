@@ -32,5 +32,6 @@ mm-status-high-morale
 mm-status-low-morale
 mm-status-roll
 mm-status-stun
+mm-status-heal
 ]
 lightRadius: 0

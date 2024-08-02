@@ -1,0 +1,32 @@
+type: MendProjector
+healPercent: 1
+reload: 60
+health: 1500
+size: 3
+range: 80
+hasPower: false
+hasLiquids: false
+itemCapacity: 30
+phaseBoost: 0
+phaseRangeBoost: 0
+category: effect
+//baseColor: ffffffff
+//phaseColor: ffffffff
+useTime: 300
+buildCostMultiplier: 3.6
+
+consumes:
+{
+	items:
+	[
+	mm-item-wood/2
+	mm-item-iron/1
+	]
+}
+
+requirements:
+[
+item-wood/250
+item-iron/250
+]
+

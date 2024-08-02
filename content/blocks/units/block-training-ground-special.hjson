@@ -82,6 +82,15 @@ plans: [
 			mm-item-food/65
 			mm-item-flag/1
 			]
+		},
+		{
+		unit: unit-special-medic
+		time: 1800
+		requirements:
+			[
+			mm-item-food/70
+			mm-item-backpack/1
+			]
 		}
 	]
 /*

@@ -1,0 +1,5 @@
+color: 84f491ff
+outline: false
+damage: -0.1
+applyEffect: heal
+applyColor: 84f491ff
