@@ -1,0 +1,6 @@
+hardness: 1
+lowPriority: true
+buildable: false
+cost: 1
+color: 989aa4
+hidden: true

@@ -1,8 +1,8 @@
 type: mech
 fogRadius: 3
-speed: 0.25
+speed: 0.35
 hitSize: 4
-health: 190
+health: 130
 range: 24
 maxRange: 24
 targetAir: false
@@ -37,14 +37,14 @@ deathExplosionEffect: {
 }
 weapons: [
 		{
-		name: unit-offence-hammerbearer-weapon
+		name: unit-defence-morgenstern-weapon
 		mirror: false
 		showStatSprite: false
 		top: false
-		reload: 150
+		reload: 108
 		recoil: 0
 		shootX: 0
-		shootY: 16
+		shootY: 0
 		x: 0
 		y: 0
 		layerOffset: -0.01
@@ -68,7 +68,7 @@ weapons: [
 			progress: recoil
 			x: 1.8
 			y: 0
-			moveRot: -45
+			moveRot: -1080
 			moveY: -1.2
 			moveX: -1.2
 			mirror: false
@@ -79,22 +79,21 @@ weapons: [
 			type: BasicBulletType
 			shootEffect: none
 			smokeEffect: none
-			lifetime: 60
+			lifetime: 1
 			speed: 1
-			damage: 45
+			damage: 0
 			recoil: -1
-			instantDisappear: true
-			splashDamage: 45
-			splashDamageRadius: 16
+			instantDisappear: false
+			splashDamage: 0
+			splashDamageRadius: 0
 			hittable: false
 			despawnHit: true
 			width: 0
 			height: 0
 			range: 24
 			maxRange: 24
-			status: mm-status-stun
-			statusDuration: 90
-			buildingDamageMultiplier: 4
+			knockback: -3
+			impact: false
 			hitEffect: {
 				type: ExplosionEffect
 				lifetime: 15
@@ -105,10 +104,10 @@ weapons: [
 				sparkColor: ffffffff
 				waveLife: 15
 				waveStroke: 1
-				waveRad: 2
+				waveRad: 24
 				waveRadBase: 0
 				sparkStroke: 1
-				sparkRad: 2
+				sparkRad: 24
 				sparkLen: 2
 				}
 			despawnEffect: {
@@ -121,19 +120,97 @@ weapons: [
 				sparkColor: ffffffff
 				waveLife: 15
 				waveStroke: 1
-				waveRad: 2
+				waveRad: 24
 				waveRadBase: 0
 				sparkStroke: 1
-				sparkRad: 2
+				sparkRad: 24
 				sparkLen: 2
 				}
+			}
+		},
+		{
+		name: none
+		mirror: false
+		showStatSprite: false
+		top: false
+		reload: 108
+		recoil: 0
+		shootX: 0
+		shootY: 0
+		x: 0
+		y: 0
+		inaccuracy: 360
+		shootSound: none
+		bullet: {
+			type: BasicBulletType
+			hitSize: 8
+			shootEffect: none
+			smokeEffect: none
+			lifetime: 10
+			speed: 1
+			damage: 0
+			recoil: -1
+			instantDisappear: false
+			hittable: false
+			despawnHit: true
+			hitEffect: none
+			despawnEffect: none
+			width: 0
+			height: 0
+			range: 24
+			maxRange: 24
+			knockback: -1
+			impact: false
+			}
+		shoot: {
+			type: ShootSpread
+			spread: 30
+			shots: 12
+			shotDelay: 0
+			firstShotDelay: 0
+			}
+		}
+		{
+		name: none
+		mirror: false
+		showStatSprite: false
+		top: false
+		reload: 30
+		recoil: 0
+		shootX: 0
+		shootY: 0
+		x: 0
+		y: 0
+		inaccuracy: 0
+		shootSound: none
+		bullet: {
+			type: BasicBulletType
+			shootEffect: none
+			smokeEffect: none
+			hitEffect: none
+			despawnEffect: none
+			lifetime: 1
+			speed: 1
+			damage: 30
+			recoil: 0
+			instantDisappear: false
+			splashDamage: 30
+			splashDamageRadius: 32
+			hittable: false
+			despawnHit: true
+			width: 0
+			height: 0
+			range: 24
+			maxRange: 24
+			knockback: -3
+			impact: false
 			}
 		}
 	]
 abilities: [
 		{
 		type: SpawnDeathAbility
-		unit: unit-offence-hammerbearer-corpse
+		unit: unit-defence-morgenstern-corpse
 		spread: 4
 		}
 	]

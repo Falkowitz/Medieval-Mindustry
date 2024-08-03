@@ -82,6 +82,11 @@ output: mm-item-mace
 craftTime: 180
 },
 {
+input: {items: [mm-item-wood/2, mm-item-iron/4]}
+output: mm-item-morgenstern
+craftTime: 180
+},
+{
 input: mm-item-wood/5
 output: mm-item-bow
 craftTime: 180
@@ -134,4 +139,12 @@ hitShake: 5
 despawnUnit: block-armory-wreck
 trailEffect: none
 }
+*/
+
+/*
+{
+input: {items: [mm-item-wood/3, mm-item-iron/6]}
+output: mm-item-blunderbuss
+craftTime: 480
+},
 */

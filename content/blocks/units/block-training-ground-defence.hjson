@@ -47,7 +47,15 @@ plans: [
 			mm-item-shield/1
 			mm-item-spear/1
 			]
-		}
+		},
+		{
+		unit: unit-defence-morgenstern
+		time: 1350
+		requirements: [
+			mm-item-food/70
+			mm-item-morgenstern/1
+			]
+		},
 	]
 /*
 destroyEffect: smokeCloud
@@ -71,4 +79,15 @@ hitShake: 5
 despawnUnit: block-training-ground-defence-wreck
 trailEffect: none
 }
+*/
+
+/*
+		{
+		unit: unit-defence-blunderbuss
+		time: 1800
+		requirements: [
+			mm-item-food/75
+			mm-item-blunderbuss/1
+			]
+		}
 */

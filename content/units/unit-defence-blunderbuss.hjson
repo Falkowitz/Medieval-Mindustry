@@ -1,18 +1,20 @@
 type: mech
 fogRadius: 3
-speed: 0.25
+speed: 0.3
 hitSize: 4
-health: 90
-range: 176
-maxRange: 176
-targetAir: true
+health: 115
+range: 12
+armor: 0
+maxRange: 12
+targetAir: false
 createScorch: false
 commands: [move]
 outlines: false
 mechSideSway: 0.1
 mechFrontSway: 0.25
-deathSound: sound-death1
+deathSound: sound-death2
 lightRadius: 0
+internal: true
 deathExplosionEffect: {
 	type: ParticleEffect
 	cone: 1
@@ -37,7 +39,7 @@ deathExplosionEffect: {
 }
 weapons: [
 		{
-		name: unit-range-musketeer-weapon
+		name: unit-defence-blunderbuss-weapon
 		mirror: false
 		showStatSprite: false
 		top: false
@@ -48,10 +50,11 @@ weapons: [
 		x: 0
 		y: 0
 		layerOffset: -0.0001
-		shootSound: sound-musket-fire
+		shootSound: sound-blunderbuss-fire
 		shootStatus: unmoving
-		shootStatusDuration: 180
+		shootStatusDuration: 300
 		predictTarget: true
+		inaccuracy: 30
 		parts: [
 			{
 			suffix: "-lhand"
@@ -103,9 +106,9 @@ weapons: [
 			despawnSound: snone
 			hitShake: 0
 			despawnShake: 0
-			lifetime: 35.2
+			lifetime: 14.4
 			speed: 5
-			damage: 85
+			damage: 9
 			hittable: false
 			despawnHit: true
 			/*
@@ -121,26 +124,32 @@ weapons: [
 			lightRadius: 0
 			lightOpacity: 1
 			lightColor: ffffff
-			range: 176
-			maxRange: 176
+			range: 12
+			maxRange: 12
 			shrinkX: 0
 			shrinkY: 0
-			pierce: true
-			pierceCap: 2
-			pierceBuilding: true
-			pierceDamageFactor: 0.75
 			buildingDamageMultiplier: 0.1
+			recoil: 0.3
 			}
 		shoot: {
-			shots: 1
-			firstShotDelay: 60
+			shots: 12
+			shotDelay: 0
+			firstShotDelay: 30
 			}
 		}
 	]
 abilities: [
 		{
 		type: SpawnDeathAbility
-		unit: unit-range-musketeer-corpse
+		unit: unit-defence-blunderbuss-corpse
 		spread: 4
+		}
+		{
+		type: ForceFieldAbility
+		radius: 5
+		regen: 0.0555556
+		max: 100
+		cooldown: 300
+		sides: 8
 		}
 	]
