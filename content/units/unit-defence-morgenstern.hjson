@@ -82,7 +82,7 @@ weapons: [
 			lifetime: 1
 			speed: 1
 			damage: 0
-			recoil: -1
+			recoil: 0
 			instantDisappear: false
 			splashDamage: 0
 			splashDamageRadius: 0
@@ -133,7 +133,7 @@ weapons: [
 		mirror: false
 		showStatSprite: false
 		top: false
-		reload: 108
+		reload: 30
 		recoil: 0
 		shootX: 0
 		shootY: 0
@@ -191,10 +191,10 @@ weapons: [
 			despawnEffect: none
 			lifetime: 1
 			speed: 1
-			damage: 30
+			damage: 15
 			recoil: 0
 			instantDisappear: false
-			splashDamage: 30
+			splashDamage: 15
 			splashDamageRadius: 32
 			hittable: false
 			despawnHit: true
