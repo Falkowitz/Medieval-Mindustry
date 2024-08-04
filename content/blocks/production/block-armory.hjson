@@ -87,6 +87,11 @@ output: mm-item-morgenstern
 craftTime: 180
 },
 {
+input: {items: [mm-item-wood/3, mm-item-iron/6]}
+output: mm-item-blunderbuss
+craftTime: 480
+},
+{
 input: mm-item-wood/5
 output: mm-item-bow
 craftTime: 180

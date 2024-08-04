@@ -1,8 +1,8 @@
 name: "mm"
 displayName: "Medieval Mindustry"
-description: "Another total conversion PVP mod"
+description: "Total conversion PVP mod set in fantasy medieval times"
 author: "Fitz"
 minGameVersion: "136"
 version: "0.1"
-hideBrowser: true
+hideBrowser: false
 dependencies: ["multi-crafter"]

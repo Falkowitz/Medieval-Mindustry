@@ -2,7 +2,7 @@ type: mech
 fogRadius: 3
 speed: 0.3
 hitSize: 4
-health: 115
+health: 150
 range: 12
 armor: 0
 maxRange: 12
@@ -14,7 +14,6 @@ mechSideSway: 0.1
 mechFrontSway: 0.25
 deathSound: sound-death2
 lightRadius: 0
-internal: true
 deathExplosionEffect: {
 	type: ParticleEffect
 	cone: 1
@@ -148,7 +147,7 @@ abilities: [
 		type: ForceFieldAbility
 		radius: 5
 		regen: 0.0555556
-		max: 100
+		max: 200
 		cooldown: 300
 		sides: 8
 		}

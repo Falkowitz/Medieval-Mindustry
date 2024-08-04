@@ -56,6 +56,14 @@ plans: [
 			mm-item-morgenstern/1
 			]
 		},
+		{
+		unit: unit-defence-blunderbuss
+		time: 1800
+		requirements: [
+			mm-item-food/75
+			mm-item-blunderbuss/1
+			]
+		}
 	]
 /*
 destroyEffect: smokeCloud
@@ -82,12 +90,5 @@ trailEffect: none
 */
 
 /*
-		{
-		unit: unit-defence-blunderbuss
-		time: 1800
-		requirements: [
-			mm-item-food/75
-			mm-item-blunderbuss/1
-			]
-		}
+
 */
