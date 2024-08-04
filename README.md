@@ -48,19 +48,21 @@ Will be done after content is be finished
 - Shieldbearer
 - Macebearer
 - Legionary
+- Blunderbuss
+- Morgenstern
 ### Range Tree
 - Archer
 - Arbalest
 - Musketeer
+- Mage
 ## Special Tree
 ### Special Tree
 - Farmer
-- Mage
 - TODO King
 - Centurion
 - Standardbearer
 - TODO Priest
-- TODO Doctor
+- Doctor
 ### Siege Tree
 - Catapult
 - TODO Ballista
@@ -128,6 +130,7 @@ Will be done after content is be finished
 - TODO Outpost
 - House
 - TODO Mana Shield Projector
+- Repair Yard
 
 ### Production
 - Farm
@@ -151,6 +154,7 @@ Will be done after content is be finished
 - Forced March
 - High Morale
 - Low Morale
+- Heal
 
 ## Items
 ### Resources
@@ -171,8 +175,10 @@ Will be done after content is be finished
 - Hoe
 - Musket
 - Flag
+- Blunderbuss
+- Backpack
+- Morgenstern
 
 ## Maps
-- Meadow
-- TODO Duel
+- Duel
 - TODO more
