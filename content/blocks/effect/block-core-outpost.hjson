@@ -1,0 +1,24 @@
+ type: CoreBlock
+health: 2500
+itemCapacity: 500
+size: 5
+unitCapModifier: 4
+unitType: unit-core
+requirements: [
+	item-wood/1000
+	item-iron/2500
+	item-food/500
+] 
+category: effect
+fogRadius: 30
+hasItems: true
+customShadow: true
+solid: true
+alwaysUnlocked: true
+buildCostMultiplier: 0.9
+allowResupply: true
+placeSound: block-place
+breakSound: block-destroy
+destroySound: block-destroy
+thrusterLength: 0
+squareSprite: false
