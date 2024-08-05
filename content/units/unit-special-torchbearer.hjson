@@ -1,5 +1,5 @@
 type: mech
-fogRadius: 5
+fogRadius: 20
 speed: 0.3
 hitSize: 4
 health: 150
@@ -13,7 +13,7 @@ outlines: false
 mechSideSway: 0.1
 mechFrontSway: 0.25
 deathSound: sound-death2
-lightRadius: 40
+lightRadius: 120
 deathExplosionEffect: {
 	type: ParticleEffect
 	cone: 1
