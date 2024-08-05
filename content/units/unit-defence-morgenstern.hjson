@@ -191,10 +191,10 @@ weapons: [
 			despawnEffect: none
 			lifetime: 1
 			speed: 1
-			damage: 15
+			damage: 5
 			recoil: 0
 			instantDisappear: false
-			splashDamage: 15
+			splashDamage: 5
 			splashDamageRadius: 32
 			hittable: false
 			despawnHit: true

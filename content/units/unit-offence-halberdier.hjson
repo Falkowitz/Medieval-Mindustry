@@ -49,6 +49,8 @@ weapons: [
 		y: 0
 		layerOffset: -0.01
 		shootSound: sound-swish
+		shootStatus: slow
+		shootStatusDuration: 120
 		parts: [
 			{
 			suffix: "-lhand"
@@ -81,11 +83,11 @@ weapons: [
 			smokeEffect: none
 			lifetime: 60
 			speed: 1
-			damage: 35
+			damage: 15
 			recoil: -1
 			instantDisappear: true
-			splashDamage: 35
-			splashDamageRadius: 24
+			splashDamage: 15
+			splashDamageRadius: 12
 			hittable: false
 			despawnHit: true
 			width: 0
