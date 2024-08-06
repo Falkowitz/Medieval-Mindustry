@@ -95,5 +95,6 @@ abilities: [
 		type: SpawnDeathAbility
 		unit: unit-special-torchbearer-corpse
 		spread: 4
+		display: false
 		}
 	]

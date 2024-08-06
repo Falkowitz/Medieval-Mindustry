@@ -26,7 +26,7 @@ requirements: [
 plans: [
 		{
 		unit: unit-special-hot-balloon
-		time: 2700
+		time: 3600
 		requirements: [
 			mm-item-food/100
 			mm-item-wood/300
@@ -34,25 +34,25 @@ plans: [
 		},
 		{
 		unit: unit-special-farmer
-		time: 1800
+		time: 3600
 		requirements: [
-			mm-item-food/50
+			mm-item-food/100
 			mm-item-hoe/1
 			]
 		},
 		{
 		unit: unit-special-lumberjack
-		time: 1800
+		time: 3600
 		requirements: [
-			mm-item-food/50
+			mm-item-food/100
 			mm-item-axe/1
 			]
 		},
 		{
 		unit: unit-special-miner
-		time: 1800
+		time: 3600
 		requirements: [
-			mm-item-food/50
+			mm-item-food/100
 			mm-item-pickaxe/1
 			]
 		},
@@ -90,6 +90,15 @@ plans: [
 			[
 			mm-item-food/70
 			mm-item-backpack/1
+			]
+		},
+		{
+		unit: unit-special-medic
+		time: 3600
+		requirements:
+			[
+			mm-item-food/100
+			mm-item-barrel/1
 			]
 		}
 	]

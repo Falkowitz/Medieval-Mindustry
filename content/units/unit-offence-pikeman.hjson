@@ -136,6 +136,7 @@ abilities: [
 		type: SpawnDeathAbility
 		unit: unit-offence-pikeman-corpse
 		spread: 4
+		display: false
 		}
 		{
 		type: StatusFieldAbility

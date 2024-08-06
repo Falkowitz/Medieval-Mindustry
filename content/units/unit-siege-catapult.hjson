@@ -105,5 +105,6 @@ abilities: [
 		type: SpawnDeathAbility
 		unit: unit-siege-catapult-wreck
 		spread: 4
+		display: false
 		}
 	]

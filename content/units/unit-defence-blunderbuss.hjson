@@ -141,6 +141,7 @@ abilities: [
 		{
 		type: SpawnDeathAbility
 		unit: unit-defence-blunderbuss-corpse
+		display: false
 		spread: 4
 		}
 		{

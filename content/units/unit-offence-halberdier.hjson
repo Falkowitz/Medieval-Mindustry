@@ -83,10 +83,10 @@ weapons: [
 			smokeEffect: none
 			lifetime: 60
 			speed: 1
-			damage: 15
+			damage: 25
 			recoil: -1
 			instantDisappear: true
-			splashDamage: 15
+			splashDamage: 25
 			splashDamageRadius: 12
 			hittable: false
 			despawnHit: true
@@ -134,5 +134,6 @@ abilities: [
 		type: SpawnDeathAbility
 		unit: unit-offence-halberdier-corpse
 		spread: 4
+		display: false
 		}
 	]

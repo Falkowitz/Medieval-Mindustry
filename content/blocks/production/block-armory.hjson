@@ -120,6 +120,11 @@ craftTime: 600
 input: {items: [mm-item-wood/10]}
 output: mm-item-backpack
 craftTime: 600
+},
+{
+input: {items: [mm-item-wood/10, mm-item-iron/1]}
+output: mm-item-barrel
+craftTime: 600
 }
 ]
 /*

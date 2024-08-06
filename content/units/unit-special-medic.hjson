@@ -42,6 +42,7 @@ abilities: [
 		type: SpawnDeathAbility
 		unit: unit-special-medic-corpse
 		spread: 4
+		display: false
 		}
 		{
 		type: StatusFieldAbility

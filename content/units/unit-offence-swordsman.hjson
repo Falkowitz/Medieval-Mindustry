@@ -132,5 +132,6 @@ abilities: [
 		type: SpawnDeathAbility
 		unit: unit-offence-swordsman-corpse
 		spread: 4
+		display: false
 		}
 	]

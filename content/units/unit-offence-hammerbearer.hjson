@@ -135,5 +135,6 @@ abilities: [
 		type: SpawnDeathAbility
 		unit: unit-offence-hammerbearer-corpse
 		spread: 4
+		display: false
 		}
 	]

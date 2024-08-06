@@ -115,5 +115,6 @@ abilities: [
 		type: SpawnDeathAbility
 		unit: unit-range-archer-corpse
 		spread: 4
+		display: false
 		}
 	]

@@ -122,5 +122,6 @@ abilities: [
 		type: SpawnDeathAbility
 		unit: unit-defence-legionary-corpse
 		spread: 4
+		display: false
 		}
 	]

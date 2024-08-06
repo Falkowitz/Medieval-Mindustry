@@ -142,5 +142,6 @@ abilities: [
 		type: SpawnDeathAbility
 		unit: unit-range-musketeer-corpse
 		spread: 4
+		display: false
 		}
 	]

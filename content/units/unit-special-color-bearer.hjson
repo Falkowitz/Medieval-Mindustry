@@ -41,6 +41,7 @@ abilities: [
 		type: SpawnDeathAbility
 		unit: unit-special-color-bearer-corpse
 		spread: 4
+		display: false
 		}
 		{
 		type: StatusFieldAbility
