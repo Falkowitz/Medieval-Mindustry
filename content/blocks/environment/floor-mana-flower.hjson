@@ -1,0 +1,12 @@
+type: Floor
+speedMultiplier: 1
+walkSound: grass
+variants: 3
+hasColor: true
+useColor: true
+mapColor: b879d3ff
+attributes: {mana: 1}
+allowCorePlacement: true
+emitLight: true
+lightColor: b879d3ff
+lightRadius: 16

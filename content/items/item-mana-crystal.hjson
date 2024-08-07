@@ -1,0 +1,7 @@
+name: Mana Crystal
+hardness: 1
+lowPriority: false
+buildable: true
+cost: 1
+color: b879d3
+radioactivity: 1

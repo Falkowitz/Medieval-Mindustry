@@ -1,5 +1,5 @@
 name: Iron
-hardness: 1
+hardness: 2
 flammability: 0
 lowPriority: false
 buildable: true

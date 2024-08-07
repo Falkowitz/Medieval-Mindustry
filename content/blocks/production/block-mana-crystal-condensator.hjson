@@ -1,0 +1,74 @@
+type: AttributeCrafter
+variants: 0
+breakable: false
+destructible: true
+rotate: false
+size: 2
+health: 750
+category: production
+buildVisibility: shown
+rebuildable: true
+solid: true
+hasItems: true
+hasLiquids: false
+hasPower: false
+buildCostMultiplier: 2.6
+craftTime: 180
+lightColor: b879d3ff
+emitLight: true
+lightRadius: 24
+requirements: [
+	item-wood/300
+	item-iron/150
+] 
+placeSound: block-place
+breakSound: block-destroy
+destroySound: block-destroy
+fogRadius: 5
+attribute: mana
+outputItem: item-mana-crystal/1
+warmupSpeed: 0.02
+baseEfficiency: 0
+boostScale: 0.25
+maxBoost: 1
+itemCapacity: 50
+loopSound: none
+loopSoundVolume: 0.05
+customShadow: false
+ambientSound: sound-block-mana-crystal-condenser-ambient
+ambientSoundVolume: 0.05
+
+destroyBullet:
+{
+type: BasicBulletType
+instantDisappear: true
+width: 0
+height: 0
+damage: 200
+splashDamage: 200
+splashDamageRadius: 24
+despawnHit: true
+hitEffect: none
+despawnEffect: none
+smokeEffect: none
+shootEffect: 
+	{
+	type: ExplosionEffect
+	lifetime: 180
+	waveStroke: 4
+	waveLife: 60
+	waveRad: 24
+	waveRadBase: 8
+	waveColor: 6c86fdff
+	sparks: 5
+	sparkStroke: 4
+	sparkRad: 24
+	sparkLen: 24
+	sparkColor: b879d3ff
+	smokes: 5
+	smokeSize: 24
+	smokeSizeBase: 8
+	smokeRad: 24
+	smokeColor: a17ce5ff
+	}
+}

@@ -44,6 +44,7 @@ plans: [
 		time: 1800
 		requirements: [
 			mm-item-food/80
+			mm-item-mana-crystal/3
 			mm-item-book/1
 			]
 		},
