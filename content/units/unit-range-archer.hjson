@@ -98,6 +98,7 @@ weapons: [
 			shrinkX: 0
 			shrinkY: 1
 			buildingDamageMultiplier: 0.25
+			layer: 95.0001
 			}
 		}
 	]

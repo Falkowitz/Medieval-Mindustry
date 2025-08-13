@@ -1,11 +1,12 @@
 type: tank
 fogRadius: 15
-speed: 0.3
+speed: 0.15
 hitSize: 24
 health: 300
-range: 200
-maxRange: 200
+range: 32
+maxRange: 32
 targetAir: false
+armor: 50
 createScorch: false
 commands: [move]
 outlines: false
@@ -13,103 +14,134 @@ deathSound: sound-catapult-death
 deathExplosionEffect: dynamicExplosion
 omniMovement: false
 rotateMoveFirst: true
-rotateSpeed: 1
+rotateSpeed: 0.5
 lightRadius: 0
 treadFrames: 16
 treadRects: [
 	{
 		x: 24
-		y: -52
+		y: -8
 		width: 8
 		height: 16
 	},
 	{
 		x: 24
-		y: 8
+		y: -48
+		width: 8
+		height: 16
+	}
+	{
+		x: 24 
+		y: 32
 		width: 8
 		height: 16
 	}
 ]
 weapons: [
 		{
-		name: unit-siege-catapult-weapon
+		name: unit-siege-battering-ram-weapon
 		mirror: false
 		showStatSprite: false
 		top: false
-		reload: 300
+		reload: 600
 		recoil: 0
 		shootX: 0
-		shootY: 2
+		shootY: 24
 		x: 0
 		y: 0
-		layerOffset: 0.01
+		layerOffset: 0
 		shootSound: swoosh-deep
-		shootStatus: slow
-		shootStatusDuration: 150
 		shootCone: 5
 		rotate: true
-		rotateSpeed: 1
+		rotateSpeed: 0.5
+
 		parts: [
 			{
-			suffix: "-arm"
+			suffix: "-top"
 			type: RegionPart
 			progress: recoil
 			x: 0
-			y: 2
+			y: 0
 			moveRot: 0
 			moveY: 0
 			moveX: 0
-			growY: -1
 			mirror: false
 			outline: false
+			layerOffset: 0.01
+			},
+			{
+			suffix: "-log"
+			type: RegionPart
+			progress: recoil
+			x: 0
+			y: 0
+			moveRot: 0
+			moveY: 8
+			moveX: 0
+			mirror: false
+			outline: false
+			layerOffset: 0.001
 			}
 			]
+
+		shoot:
+			{
+			shots: 1
+			shotDelay: 0
+			firstShotDelay: 0
+			}
+
 		bullet: {
-			type: ArtilleryBulletType
-			sprite: boulder2
-			backSprite: none
+			type: BasicBulletType
 			shootEffect: none
 			smokeEffect: none
-			hitEffect: explosion
-			despawnEffect: explosion
-			hitSound: explosion-small
-			despawnSound: explosion-small
+			hitEffect: none
+			despawnEffect: none
+			hitSound: none
+			despawnSound: none
 			hitShake: 0
 			despawnShake: 5
-			//lifetime: 33
-			lifetime: 200
+			lifetime: 1
 			speed: 1
-			damage: 75
-			splashDamage: 75
+			damage: 200
+			splashDamage: 200
 			splashDamageRadius: 24
 			hittable: false
 			despawnHit: true
-			scaleLife: true
-			trailColor: ffffffff
-			trailLength: 8
-			trailWidth: 1.6
-			trailSize: 1.6
-			trailEffect: none
-			width: 3
-			height: 3
+			width: 0
+			height: 0
 			lightRadius: 0
 			lightOpacity: 1
 			lightColor: ffffff
-			range: 200
-			maxRange: 200
+			range: 32
+			maxRange: 32
 			shrinkX: 0
 			shrinkY: 0
-			spin: 1
+			spin: 0
 			layer: 95.0001
-			buildingDamageMultiplier: 2
+			buildingDamageMultiplier: 1.5
 			knockback: 3
 			}
 		}
+/*
+		{
+		name: unit-siege-battering-ram-weapon-top
+		x: 0
+		y: 0
+		noAttack: true
+		mirror: false
+		layerOffset: 0.0001
+		rotate: false
+		controllable: false
+		aiControllable: false
+		recoil: 0
+		}
+*/
 	]
 abilities: [
 		{
 		type: SpawnDeathAbility
-		unit: unit-siege-catapult-wreck
+		unit: unit-siege-battering-ram-wreck
 		spread: 4
 		display: false
 		}

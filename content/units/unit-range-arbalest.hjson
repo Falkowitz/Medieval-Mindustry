@@ -137,6 +137,7 @@ weapons: [
 			shrinkY: 0
 			pierceArmor: true
 			buildingDamageMultiplier: 0.25
+			layer: 95.0001
 			}
 		shoot: {
 			shots: 1

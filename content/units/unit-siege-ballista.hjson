@@ -19,31 +19,31 @@ treadFrames: 16
 treadRects: [
 	{
 		x: 24
-		y: -52
+		y: -46
 		width: 8
 		height: 16
 	},
 	{
 		x: 24
-		y: 8
+		y: 34
 		width: 8
 		height: 16
 	}
 ]
 weapons: [
 		{
-		name: unit-siege-catapult-weapon
+		name: unit-siege-ballista-weapon
 		mirror: false
 		showStatSprite: false
 		top: false
-		reload: 300
+		reload: 480
 		recoil: 0
 		shootX: 0
-		shootY: 2
+		shootY: 9
 		x: 0
 		y: 0
 		layerOffset: 0.01
-		shootSound: swoosh-deep
+		shootSound: ballista-fire
 		shootStatus: slow
 		shootStatusDuration: 150
 		shootCone: 5
@@ -51,47 +51,84 @@ weapons: [
 		rotateSpeed: 1
 		parts: [
 			{
-			suffix: "-arm"
+			suffix: "-lever"
 			type: RegionPart
-			progress: recoil
+			progress: charge
 			x: 0
-			y: 2
+			y: 9
 			moveRot: 0
 			moveY: 0
 			moveX: 0
+			//growY: 0.2
+			//growX: -0.2
+			growX: 0
 			growY: -1
 			mirror: false
 			outline: false
+/*
+			moves: [
+					{
+					type: PartMove
+					progress: recoil
+					moveY: 0
+					moveX: 0
+					moveRot: 0
+					growY: -1.2
+					growX: 0.2
+					}
+				]
+*/
+			}
+			{
+			suffix: "-upper"
+			type: RegionPart
+			progress: recoil
+			x: 0
+			y: 0
+			mirror: false
+			outline: false
+			layerOffset: 0.001
+			moveX: 0
+			moveY: 0
+			moveRot: 0
 			}
 			]
+
+		shoot:
+			{
+			shots: 1
+			shotDelay: 0
+			firstShotDelay: 0
+			}
+
 		bullet: {
-			type: ArtilleryBulletType
-			sprite: boulder2
-			backSprite: none
+			type: BasicBulletType
+			sprite: mm-ballista-bolt-front
+			backSprite: mm-ballista-bolt-back
+			frontColor: b0bac0
+			backColor: 90776a
 			shootEffect: none
 			smokeEffect: none
-			hitEffect: explosion
-			despawnEffect: explosion
-			hitSound: explosion-small
-			despawnSound: explosion-small
+			hitEffect: none
+			despawnEffect: none
+			hitSound: ballista-hit
+			despawnSound: ballista-despawn
 			hitShake: 0
 			despawnShake: 5
 			//lifetime: 33
-			lifetime: 200
-			speed: 1
-			damage: 75
-			splashDamage: 75
-			splashDamageRadius: 24
+			lifetime: 40
+			speed: 5
+			damage: 200
 			hittable: false
-			despawnHit: true
-			scaleLife: true
+			despawnHit: false
+			scaleLife: false
 			trailColor: ffffffff
 			trailLength: 8
-			trailWidth: 1.6
-			trailSize: 1.6
+			trailWidth: 0.8
+			trailSize: 0.8
 			trailEffect: none
-			width: 3
-			height: 3
+			width: 8
+			height: 8
 			lightRadius: 0
 			lightOpacity: 1
 			lightColor: ffffff
@@ -99,9 +136,12 @@ weapons: [
 			maxRange: 200
 			shrinkX: 0
 			shrinkY: 0
-			spin: 1
+			spin: 0
 			layer: 95.0001
-			buildingDamageMultiplier: 2
+			buildingDamageMultiplier: 1
+			pierce: true
+			pierceCap: 4
+			pierceBuilding: true
 			knockback: 3
 			}
 		}
@@ -109,7 +149,7 @@ weapons: [
 abilities: [
 		{
 		type: SpawnDeathAbility
-		unit: unit-siege-catapult-wreck
+		unit: unit-siege-ballista-wreck
 		spread: 4
 		display: false
 		}

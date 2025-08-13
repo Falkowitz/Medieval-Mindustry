@@ -103,19 +103,21 @@ weapons: [
 			despawnSound: snone
 			hitShake: 0
 			despawnShake: 0
-			lifetime: 35.2
+			lifetime: 36.2
 			speed: 5
 			damage: 85
 			hittable: false
 			despawnHit: true
-			/*
+
+			
 			scaleLife: true
 			trailColor: ffffffff
 			trailLength: 8
 			trailWidth: 0.4
 			trailSize: 0.4
 			trailEffect: none
-			*/
+			
+
 			width: 2
 			height: 4
 			lightRadius: 0
